@@ -7,11 +7,17 @@
     border: none;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header and hero image */
+
 body h1 {
     font-family: 'Bruno Ace SC';
     font-weight: 700;
 }
 
-.hero-slogan {
+.nav-slogan {
     font-family: 'Bruno Ace';
 }
