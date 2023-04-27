@@ -25,12 +25,17 @@ body {
 .container-nav {
     display: flex;
 }
+header a {
+    text-decoration: none;
+}
 
-h1 {
+#logo {
     font-family: 'Bruno Ace SC';
     font-weight: 700;
     color: #fff;
     letter-spacing: 4px;
+    font-size: 1.5rem;
+    margin-left: 20px;
 }
 
 nav {
@@ -41,13 +46,6 @@ nav a {
     font-family: 'Bruno Ace';
     color: #fff;
     font-size: 12px;
-    text-decoration: none;
-}
-
-#logo {
-    font-size: 1.5rem;
-    margin-left: 20px;
-    text-decoration: none;
 }
 
 #menu li {
@@ -55,7 +53,6 @@ nav a {
     list-style-type: none;
     margin-right: 1rem;
     letter-spacing: 1px;
-    
 }
 
 #menu, #logo {
@@ -73,15 +70,34 @@ nav a {
 
 /* Hero image and slogan text */
 
-.nav-slogan {
-    font-family: 'Bruno Ace';
-    color: #fff;
-}
-
 #hero-out {
     height: 600px;
     background-size: cover;
     overflow: hidden;
+    position: relative;
+}
+
+#slogan {
+    background-color: rgba(208,62,166,0.7);
+    width: 278px;
+    height: 72px;
+    padding: 40px;
+    position: absolute;
+    bottom: 100px;
+    right: 130px;
+    border-radius: 15px;
+    box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+#slogan h3 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.nav-slogan {
+    font-family: 'Bruno Ace';
+    color: #fff;
 }
 
 #hero-image {
@@ -95,7 +111,6 @@ nav a {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 
 /* zoom effect level of the hero image */
 
