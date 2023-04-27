@@ -25,6 +25,11 @@ body {
 .container-nav {
     display: flex;
 }
+
+header {
+    box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
 header a {
     text-decoration: none;
 }
@@ -79,8 +84,8 @@ nav a {
 #slogan {
     background-color: rgba(208,62,166,0.7);
     width: 278px;
-    height: 72px;
-    padding: 40px;
+    height: 96px;
+    padding: 20px;
     position: absolute;
     bottom: 100px;
     right: 130px;
@@ -92,7 +97,7 @@ nav a {
     font-size: 1.2rem;
     letter-spacing: 2px;
     text-align: center;
-    
+    line-height: 1.5;
 }
 
 .nav-slogan {
