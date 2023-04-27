@@ -35,7 +35,7 @@ header a {
     color: #fff;
     letter-spacing: 4px;
     font-size: 2rem;
-    margin-left: 20px;
+    margin-left: 16px;
 }
 
 nav {
@@ -45,15 +45,13 @@ nav {
 nav a {
     font-family: 'Bruno Ace';
     color: #fff;
-    font-size: 14px;
-    word-spacing: 4px;
+    font-size: 12px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 1rem;
-    letter-spacing: 1px;
+    margin-right: 0.5rem;
 }
 
 #menu, #logo {
@@ -129,10 +127,31 @@ nav a {
 
 #banner {
     background-color: #98f2f9;
-    height: 250px;
+    height: 300px;
     width: 100%;
     margin-top: 45px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+#left-ring {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-ring {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-ring {
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
 
 /* media queries */
