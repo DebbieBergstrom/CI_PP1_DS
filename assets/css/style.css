@@ -16,6 +16,16 @@ body {
 
 /* Header logo and nav menu */
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav {
+    display: flex;
+}
+
 h1 {
     font-family: 'Bruno Ace SC';
     font-weight: 700;
@@ -23,43 +33,46 @@ h1 {
     letter-spacing: 4px;
 }
 
-.nav-slogan a {
+nav {
+    margin-right: 12px;
+}
+
+nav a {
     font-family: 'Bruno Ace';
     color: #fff;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 #logo {
-    float: left;
-    font-size: 280%;
-}
-
-#menu {
-    font-size: 120%;
-    letter-spacing: 4px;
+    font-size: 1.5rem;
+    margin-left: 20px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 0.5rem;
+    letter-spacing: 2px;
+    
 }
 
-#menu a {
+/* #menu a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
 #menu, #logo {
     line-height: 75px;
 
 }
 
-#menu :hover {
+#menu li :hover {
     border-bottom: 1px solid #be870e;
 }
 
 .active {
-    border-bottom: 1px solid #be870e;;
+    border-bottom: 1px solid #be870e;
 }
 
 /* Hero image and slogan text */
@@ -67,4 +80,24 @@ h1 {
 .nav-slogan {
     font-family: 'Bruno Ace';
     color: #fff;
+}
+
+#hero-image {
+    background: url('../image/hero_image.jpg') center center;
+    max-width: 1600px;
+    max-height: 500px;
+}
+
+
+
+
+
+/* media queries */
+
+@media (max-width: 375x) {
+
+}
+
+@media (max-width: 768px) {
+    
 }
