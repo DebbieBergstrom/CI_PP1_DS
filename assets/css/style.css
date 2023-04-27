@@ -34,7 +34,7 @@ header a {
     font-weight: 700;
     color: #fff;
     letter-spacing: 4px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 20px;
 }
 
@@ -45,7 +45,8 @@ nav {
 nav a {
     font-family: 'Bruno Ace';
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
+    word-spacing: 4px;
 }
 
 #menu li {
@@ -93,6 +94,7 @@ nav a {
     font-size: 1.2rem;
     letter-spacing: 2px;
     text-align: center;
+    
 }
 
 .nav-slogan {
