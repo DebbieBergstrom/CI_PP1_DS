@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #2B547E;
+    background-color: #34a7c3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #fff;
@@ -47,32 +47,28 @@ nav a {
 #logo {
     font-size: 1.5rem;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 0.5rem;
-    letter-spacing: 2px;
+    margin-right: 1rem;
+    letter-spacing: 1px;
     
 }
 
-/* #menu a {
-    text-decoration: none;
-    color: inherit;
-} */
-
 #menu, #logo {
-    line-height: 75px;
-
+    line-height: 65px;
+    background-color: #34a7c3;
 }
 
 #menu li :hover {
-    border-bottom: 1px solid #be870e;
+    border-bottom: 1px solid #d03ea6;
 }
 
 .active {
-    border-bottom: 1px solid #be870e;
+    border-bottom: 1px solid #d03ea6;
 }
 
 /* Hero image and slogan text */
@@ -82,15 +78,35 @@ nav a {
     color: #fff;
 }
 
+#hero-out {
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+}
+
 #hero-image {
-    background: url('../image/hero_image.jpg') center center;
-    max-width: 1600px;
-    max-height: 500px;
+    height: 580px;
+    background: url('../image/hero_image.jpg') no-repeat center center;
+    background-size: cover;
+
+/* creates zoom effect for hero image on loading page */
+
+    animation-name: zoom-hero;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 
+/* zoom effect level of the hero image */
 
-
+@keyframes zoom-hero {
+    from{
+        transform: scale (1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 
 /* media queries */
 
