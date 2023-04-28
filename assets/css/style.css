@@ -129,7 +129,7 @@ nav a {
 /* Banner Home Page */
 
 #banner {
-    background-color: #98f2f9;
+    /* background-color: #98f2f9; */
     height: 300px;
     width: 100%;
     margin-top: 45px;
@@ -147,11 +147,6 @@ nav a {
     height: 210px;
     width: 250px;
     border-radius: 50%;
-    background-color: black;
-    /* background-image: url(../image/close_up_s.jpg) no-repeat center center;
-        background-size: cover;
-        overflow: hidden;
-        z-index: 1; */
 }
 
 .banner-p {
@@ -168,6 +163,30 @@ nav a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#left-ring {
+    background: url(/assets/image/close_up_s.jpg) no-repeat center center;
+    height: 210px;
+    width: 250px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#right-ring {
+    background: url(/assets/image/cuttlefish_s.jpg) no-repeat center center;
+    height: 210px;
+    width: 250px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#center-ring {
+    background: url(/assets/image/buddy_team_s.jpg) no-repeat center center;
+    height: 210px;
+    width: 250px;
+    border-radius: 50%;
+    background-size: cover;
 }
 
 #banner-right {
