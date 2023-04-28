@@ -146,9 +146,11 @@ nav a {
 .banner-h3 {
     color: #98f2f9;
     text-align: center;
-    background-color:rgba(208, 62, 166, 0.4);
+    background-color: rgb(42 117 136 / 80%);
     letter-spacing: 2px;
+    width: 80%;
     padding: 2px;
+    border-radius: 10px;
 }
 
 .banner-ring {
@@ -165,7 +167,8 @@ nav a {
     padding-bottom: 20px;
     padding-top: 15px;
     font-size: 16px;
-    color:#2a2a2a
+    color: #2a2a2a;
+    font-weight: bold;
 }
 
 #banner-left {
@@ -227,4 +230,3 @@ nav a {
 
 
 /* media queries */
-
