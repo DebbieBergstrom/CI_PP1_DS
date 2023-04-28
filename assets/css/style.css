@@ -55,7 +55,8 @@ nav a {
     margin-right: 0.5rem;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 65px;
     background-color: #34a7c3;
 }
@@ -78,7 +79,7 @@ nav a {
 }
 
 #slogan {
-    background-color: rgba(208,62,166,0.7);
+    background-color: rgba(208, 62, 166, 0.7);
     width: 278px;
     height: 96px;
     padding: 20px;
@@ -105,9 +106,9 @@ nav a {
     height: 580px;
     background: url('../image/hero_image.jpg') no-repeat center center;
     background-size: cover;
-    
 
-/* creates zoom effect for hero image on loading page */
+
+    /* creates zoom effect for hero image on loading page */
     animation-name: zoom-hero;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -115,10 +116,11 @@ nav a {
 
 /* zoom effect level of the hero image */
 @keyframes zoom-hero {
-    from{
+    from {
         transform: scale (1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -136,70 +138,57 @@ nav a {
     justify-content: space-around;
 }
 
-#banner-left {
-    padding-top: 20px;
-    width: 33%;
-    background-color: blue;
+.banner-h3 {
+    color: #ffffff;
+    text-align: center;
 }
 
-#left-ring {
-    height: 250px;
+.banner-ring {
+    height: 210px;
     width: 250px;
     border-radius: 50%;
     background-color: black;
     /* background-image: url(../image/close_up_s.jpg) no-repeat center center;
-    background-size: cover;
-    overflow: hidden;
-    z-index: 1; */
+        background-size: cover;
+        overflow: hidden;
+        z-index: 1; */
 }
 
-#left-ring h3 {
-    color:#fff;
+.banner-p {
+    width: 250px;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+#banner-left {
+    padding-top: 20px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #banner-right {
     padding-top: 20px;
     width: 33%;
-    background-color: rgb(173, 106, 232);
-}
-
-#right-ring {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-color: black;
-}
-
-#right-ring h3 {
-    color:#fff;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #banner-center {
     padding-top: 20px;
     width: 33%;
-    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#center-ring {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-color: black;
-}
-
-#center-ring h3 {
-    color:#fff;
-    text-align: center;
-}
 
 /* media queries */
 
-@media (max-width: 375x) {
+@media (max-width: 375x) {}
 
-}
-
-@media (max-width: 768px) {
-    
-}
+@media (max-width: 768px) {}
