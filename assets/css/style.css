@@ -144,16 +144,19 @@ nav a {
 }
 
 .banner-h3 {
-    color: #ffffff;
+    color: #98f2f9;
     text-align: center;
+    background-color:rgba(208, 62, 166, 0.4);
+    letter-spacing: 2px;
+    padding: 2px;
 }
 
 .banner-ring {
     height: 210px;
     width: 250px;
     border-radius: 50%;
-    border: 4px solid #d03ea6;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+    border: 4px solid #34a7c3;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
 }
 
 .banner-p {
@@ -162,6 +165,7 @@ nav a {
     padding-bottom: 20px;
     padding-top: 15px;
     font-size: 16px;
+    color:#2a2a2a
 }
 
 #banner-left {
