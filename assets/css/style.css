@@ -21,6 +21,11 @@ body {
     margin: 0 auto;
 }
 
+h2, h3 {
+    font-family: 'Bruno Ace';
+    color: #ccf2f5;
+} 
+
 /* Header logo and nav menu */
 
 .container {
@@ -40,7 +45,7 @@ header a {
 #logo {
     font-family: 'Bruno Ace SC';
     font-weight: 700;
-    color: #fff;
+    color: #ccf2f5;
     letter-spacing: 4px;
     font-size: 2rem;
     margin-left: 16px;
@@ -52,7 +57,7 @@ nav {
 
 nav a {
     font-family: 'Bruno Ace';
-    color: #fff;
+    color: #ccf2f5;
     font-size: 12px;
 }
 
@@ -104,11 +109,6 @@ nav a {
     line-height: 1.5;
 }
 
-.nav-slogan {
-    font-family: 'Bruno Ace';
-    color: #fff;
-}
-
 #hero-image {
     height: 580px;
     background: url('../image/hero_image.jpg') no-repeat center center;
@@ -153,7 +153,6 @@ nav a {
     letter-spacing: 1px;
     padding: 4px;
     border-radius: 12px;
-    font-family: 'Bruno Ace';
 }
 
 .banner-ring {
@@ -165,6 +164,21 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#left-ring {
+    background: url(/assets/image/close_up_s.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#right-ring {
+    background: url(/assets/image/group_divers.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#center-ring {
+    background: url(/assets/image/buddy_team_s.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .banner-p {
@@ -183,30 +197,6 @@ nav a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-#left-ring {
-    background: url(/assets/image/close_up_s.jpg) no-repeat center center;
-    height: 210px;
-    width: 260px;
-    border-radius: 50%;
-    background-size: cover;
-}
-
-#right-ring {
-    background: url(/assets/image/group_divers.jpg) no-repeat center center;
-    height: 210px;
-    width: 260px;
-    border-radius: 50%;
-    background-size: cover;
-}
-
-#center-ring {
-    background: url(/assets/image/buddy_team_s.jpg) no-repeat center center;
-    height: 210px;
-    width: 260px;
-    border-radius: 50%;
-    background-size: cover;
 }
 
 #banner-right {
@@ -228,16 +218,27 @@ nav a {
 
 /* Below banner section */
 
-#about-contact-background {
+.about-contact-background {
     height: 100vh;
     background: url('../image/pink_corals_s.jpg') no-repeat center center;
     background-size: cover;
-    position: inherit;
 }
 
 .about-info {
     width: 60%;
     text-align: center;
+    margin-top: 40px;
+    color: #98f2f9;
+    background-color: rgb(42 117 136 / 80%);
+    letter-spacing: 1px;
+    padding: 40px;
+    border-radius: 12px;
+}
+   
+   
+#about-info-box {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* media queries */
