@@ -112,7 +112,6 @@ nav a {
     background: url('../image/hero_image.jpg') no-repeat center center;
     background-size: cover;
 
-
     /* creates zoom effect for hero image on loading page */
     animation-name: zoom-hero;
     animation-duration: 5s;
@@ -150,7 +149,7 @@ nav a {
     letter-spacing: 2px;
     width: 80%;
     padding: 2px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .banner-ring {
@@ -191,7 +190,7 @@ nav a {
 }
 
 #right-ring {
-    background: url(/assets/image/cuttlefish_s.jpg) no-repeat center center;
+    background: url(/assets/image/group_divers.jpg) no-repeat center center;
     height: 210px;
     width: 250px;
     border-radius: 50%;
