@@ -223,38 +223,21 @@ nav a {
     background-size: cover;
 }
 
-.about-info {
-    width: 60%;
-    text-align: center;
-    margin-top: 40px;
-    color: #ccf2f5;
-    background-color: rgb(42 117 136 / 80%);
-    letter-spacing: 1px;
-    padding: 40px;
-    border-radius: 12px;
-}
-   
-#about-info-box {
+#boxes {
     display: flex;
     justify-content: space-around;
 }
 
-#form-map-contact-box {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contact-form-info {
+.box-content {
     width: 60%;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #ccf2f5;
     background-color: rgb(42 117 136 / 80%);
     letter-spacing: 1px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 12px;
-    display: flex;
-    flex-direction: row;
 }
 
 /* media queries */
