@@ -87,7 +87,7 @@
         </section>
 
         <section class="about-contact-background">
-                <div id="about-info-box">
+            <div id="about-info-box">
                 <div class="about-info">
                     <h2>Who are we & why coose us for diving?</h2>
                     <br>
@@ -108,22 +108,95 @@
                     <br>
                     <br>
                     <p>
-                        Located in one of the most stunning locations in the world, Indo Dive Collective offers access to some
-                        of the best dive sites on the planet. From vibrant coral reefs and marine life to underwater caves and
+                        Located in one of the most stunning locations in the world, Indo Dive Collective offers access
+                        to some
+                        of the best dive sites on the planet. From vibrant coral reefs and marine life to underwater
+                        caves and
                         shipwrecks, there is no shortage of breathtaking sights to discover. So whether you are a
                         seasoned pro or a first-time diver, come and experience the magic of the Gili Islands with us.
                         We look forward to welcoming you to our team!
                     </p>
                 </div>
             </div>
-               
-                <div>Google map box</div>
-           
+
+            <div id="form-map-contact-box"></div>
             <div class="contact-form-info">
-                <!-- form class, create your form-->
-                <div>Contact form</div>
+                <div>
+                    <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                        <h2>Contact us & let's plan your next adventure!</h2>
+                        <p>Fill in the form below and we'll get back to you!</p>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required="" class="text-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_adress" required="" class="text-input">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" required="" class="text-input">
+                        <br>
+                        <br>
+                        <h3>Do you wish to book a course, fun dive or simply just send us a message?</h3>
+                        <input type="radio" id="book-course" name="contact-reason" value="book-course"
+                            class="radio-input">
+                        <label for="book-course">Book Course</label>
+                        <input type="radio" id="fundive" name="contact-reason" value="fundive" class="radio-input">
+                        <label for="fundive">Book Fun Dive</label>
+                        <input type="radio" id="message" name="contact-reason" value="message" class="radio-input">
+                        <label for="message">Message/Request</label>
+                        <br>
+                        <br>
+                        <textarea name="add-info" id="addinfo"
+                            placeholder="Leave us a message & we will get back to you shortly!" cols="30"
+                            rows="10"></textarea>
+
+                        <input type="submit" value="Submit" class="submit-button">
+                    </form>
+                </div>
+
+                <div id="find-us-info">
+                    <h2>How to Find Us</h2>
+                    <p>Drop by the shop anytime during our opening hours! Please give us a call or fill out the form to
+                        get more information</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Phone number / Whatsapp</th>
+                                <th>Address (see map below)</th>
+                            </tr>
+                            <tr>
+                                <td>+62 123 4567 8900</td>
+                                <td>Main Road 100</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gili Trawangan</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>Opening hours</h2>
+                    <table id="open-table">
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <th>Open</th>
+                                <th>Close</th>
+                            </tr>
+                            <tr>
+                                <td class="open-day">Monday-Friday</td>
+                                <td>07:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td class="open-day">Saturday-Sunday</td>
+                                <td>07:00</td>
+                                <td>18:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </section>
+         </section>
 
         <footer>
             <ul class="social-networks">
