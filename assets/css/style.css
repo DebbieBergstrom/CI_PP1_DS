@@ -233,9 +233,9 @@ nav a {
     min-height: 100%;
     background-attachment: fixed;
     margin-bottom: 3rem;
-
 }
 
+/* boxes for home page flex containers */
 #boxes {
     display: flex;
     justify-content: space-around;
@@ -252,6 +252,9 @@ nav a {
     width: 60%;
     text-align: justify;
 }
+.top-box-margin {
+    margin-top: 50px;
+}
 
 .find-us-style {
     text-align: center;
@@ -267,14 +270,6 @@ hr {
 
 .radio-input {
     width: 10%;
-}
-
-table {
-    /* display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px; */
 }
 
 table {
@@ -302,7 +297,6 @@ table {
     padding: 20px 0px 10px 0px
   }
 
-
 input {
     border: 1px solid #34a7c3;
     border-radius: 5px;
@@ -325,11 +319,9 @@ textarea {
     width: 15%;
 }
 
-
-
 /* map */
 #map-wrapper {
-padding: 10px 0px 0px 0px;
+padding: 10px 0px 10px 0px;
 }
 
 #map {
@@ -339,6 +331,10 @@ padding: 10px 0px 0px 0px;
     border: 1px solid #34a7c3;
     border-radius: 5px;
     background-color: #ccf2f5;
+}
+
+.bottom-box-margin {
+    margin-bottom: 50px;
 }
 
 /* footer */
@@ -364,8 +360,7 @@ footer li {
     color: #ccf2f5;
 }
 
-
-/*courses */
+/* PAGE 2 - COURSES */
 
 .courses-background {
     background: url('../image/pink-coral2_3.jpg') no-repeat center center;
@@ -375,7 +370,7 @@ footer li {
     margin-bottom: 3rem;
 }
 
-/* dive sites */
+/* PAGE 3 - DIVE SITES */
 
 .divesites-background {
     background: url('../image/turtle_friend_s.jpg') no-repeat center center;
@@ -385,7 +380,47 @@ footer li {
     margin-bottom: 3rem;
 }
 
-/* Gallery */
+.divesite-courses-gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all-pages-heading {
+    margin-top: 125px;
+    margin-bottom: 25px;
+    width: 55%;
+    text-align: center;
+    font-size: 120%;
+    background-color: rgb(230, 0, 88, .5);
+    border-radius: 15px;
+    box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    line-height: 1.5;
+}
+
+#all-pages-heading-link h3 {
+    padding-top: 20px;
+}
+
+#all-pages-contact-link {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: auto;
+    text-align: center;
+    font-size: 80%;
+    background-color: rgb(230, 0, 88, .7);
+    border-radius: 15px;
+    box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    line-height: 1.5;
+}
+
+.boat-p {
+    margin-bottom: 20px;
+}
+
+/* PAGE 4 GALLERY */
 
 .gallery-background {
     background: url('../image/turkost_vatten.jpg') no-repeat center center;
@@ -395,5 +430,9 @@ footer li {
     margin-bottom: 3rem;
 }
 
+.contact-us-today-link a {
+    text-decoration: none;
+    color: #ccf2f5;
+}
 
-/* media queries */
+/* MEDIA QUERIES */
