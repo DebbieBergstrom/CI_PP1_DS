@@ -324,4 +324,38 @@ textarea {
             color: #ccf2f5;
         }
 
+
+/*courses */ 
+
+.courses-background {
+    background: url('../image/pink-coral2_3.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+    margin-bottom: 3rem;  
+}
+
+
+/* dive sites */
+
+.divesites-background {
+    background: url('../image/turtle_friend_s.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+    margin-bottom: 3rem;  
+}
+
+/* Gallery */
+
+.gallery-background {
+    background: url('../image/turkost_vatten.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+    margin-bottom: 3rem;  
+}
+
+
 /* media queries */
+
