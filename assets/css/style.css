@@ -21,20 +21,21 @@ body {
     margin: 0 auto;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Bruno Ace';
     color: #ccf2f5;
-} 
+}
 
 /* Header logo and nav menu */
 header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 4rem;
-        background-color: #34a7c3;
-        z-index: 99;
-      }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #34a7c3;
+    z-index: 99;
+}
 
 .head-container {
     display: flex;
@@ -148,7 +149,7 @@ nav a {
     max-width: 1500px;
     margin-top: 40px;
     margin-bottom: 40px;
-    box-shadow: 2px 3px 22px 21px rgba(0,0,0,0.39);
+    box-shadow: 2px 3px 22px 21px rgba(0, 0, 0, 0.39);
     display: flex;
     justify-content: center;
     border-radius: 6px;
@@ -226,7 +227,7 @@ nav a {
 /* Below banner section */
 
 .about-contact-background {
-   
+
     background: url('../image/pink_corals_s.jpg') no-repeat center center;
     background-size: cover;
     min-height: 100%;
@@ -258,14 +259,14 @@ nav a {
 
 .form-style {
     text-align: left;
-} 
+}
 
 hr {
     border: #ccf2f5 1px solid;
 }
 
 .radio-input {
-   width: 10%;
+    width: 10%;
 }
 
 table {
@@ -282,25 +283,36 @@ table {
 
 input {
     border: 1px solid #34a7c3;
-  border-radius: 5px;
-  background-color:#ccf2f5;
-  color: #2a2a2a;
-  width: 100%;
-  height: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #ccf2f5;
+    color: #2a2a2a;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 textarea {
     border: 1px solid #34a7c3;
-  border-radius: 5px;
-  background-color: #ccf2f5;
-  width: 100%
+    border-radius: 5px;
+    background-color: #ccf2f5;
+    width: 100%
 }
 
 .datalist {
     width: 15%;
 }
 
+/* map */
+/* #map-wrapper {
+
+    height: 300px;
+} */
+
+#map {
+    height: 50%;
+    border: none;
+}
 
 /* footer */
 
@@ -312,27 +324,27 @@ textarea {
     text-align: center;
     background-color: #34a7c3;
     padding-top: 10px;
-    }
+}
 
-    .social-media > li {
-        display: inline;
-        font-size: 140%;
-        margin: 5%;
-        }
-    
-        .social-media a {
-            color: #ccf2f5;
-        }
+.social-media > li {
+    display: inline;
+    font-size: 140%;
+    margin: 5%;
+}
+
+.social-media a {
+    color: #ccf2f5;
+}
 
 
-/*courses */ 
+/*courses */
 
 .courses-background {
     background: url('../image/pink-coral2_3.jpg') no-repeat center center;
     background-size: cover;
     min-height: 100%;
     background-attachment: fixed;
-    margin-bottom: 3rem;  
+    margin-bottom: 3rem;
 }
 
 
@@ -343,7 +355,7 @@ textarea {
     background-size: cover;
     min-height: 100%;
     background-attachment: fixed;
-    margin-bottom: 3rem;  
+    margin-bottom: 3rem;
 }
 
 /* Gallery */
@@ -353,9 +365,8 @@ textarea {
     background-size: cover;
     min-height: 100%;
     background-attachment: fixed;
-    margin-bottom: 3rem;  
+    margin-bottom: 3rem;
 }
 
 
 /* media queries */
-

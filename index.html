@@ -124,68 +124,93 @@
             <!-- Second div Contact form -->
             <div id="boxes">
                 <div class="box-content form-style">
-                <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-                    <h2>Contact us & let's plan your next adventure!</h2>
-                    <br>
-                    <br>
-                    <p>Fill in the form below and we'll get back to you shortly!</p>
-                    <br>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required="">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email_adress" required="">
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" required="">                  
-                    <label for="certified">Certified diver?</label>
-                    <br>
-                    <input type="text" id="certified" list="yesno" name="certified"  class="datalist">
-                    <datalist id="yesno">
-                        <option value="Yes"></option>
-                        <option value="No, not yet!"></option>
-                    </datalist>
-                    <br>
-                    <label for="dive-number">Completed dives?</label>
-                    <br>
-                    <input type="text" id="dive-number" list="numbers" name="dive-number" class="datalist">
-                    <datalist id="numbers">
-                        <option value="0"></option>
-                        <option value="1-10"></option>
-                        <option value="11-20"></option>
-                        <option value="21-40"></option>
-                        <option value="41-80"></option>
-                        <option value="81-120"></option>
-                        <option value="121-200"></option>
-                        <option value=">200"></option>
-                    </datalist>
-                    <br>
-                    <br>
-                    <br>
-                    <div>
-                        <h3>Do you wish to book a course, fun dive or simply just send us a message?</h3>
-                        <input type="radio" id="book-course" name="contact-reason" value="book-course" class="radio-input">
-                        <label for="book-course">Book Course</label>
+                    <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                        <h2>Contact us & let's plan your next adventure!</h2>
                         <br>
-                        <input type="radio" id="fundive" name="contact-reason" value="fundive" class="radio-input">
-                        <label for="fundive">Book Fun Dive</label>
                         <br>
-                        <input type="radio" id="message" name="contact-reason" value="message" class="radio-input">
-                        <label for="message">Message/Request</label>
-                    </div>
-                    <br>
-                    <br>
+                        <p>Fill in the form below and we'll get back to you shortly!</p>
+                        <br>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required="">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_adress" required="">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required="">
+                        <label for="certified">Certified diver?</label>
+                        <br>
+                        <input type="text" id="certified" list="yesno" name="certified" class="datalist">
+                        <datalist id="yesno">
+                            <option value="Yes"></option>
+                            <option value="No, not yet!"></option>
+                        </datalist>
+                        <br>
+                        <label for="dive-number">Completed dives?</label>
+                        <br>
+                        <input type="text" id="dive-number" list="numbers" name="dive-number" class="datalist">
+                        <datalist id="numbers">
+                            <option value="0"></option>
+                            <option value="1-10"></option>
+                            <option value="11-20"></option>
+                            <option value="21-40"></option>
+                            <option value="41-80"></option>
+                            <option value="81-120"></option>
+                            <option value="121-200"></option>
+                            <option value=">200"></option>
+                        </datalist>
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                            <h3>Do you wish to book a course, fun dive or simply just send us a message?</h3>
+                            <input type="radio" id="book-course" name="contact-reason" value="book-course"
+                                class="radio-input">
+                            <label for="book-course">Book Course</label>
+                            <br>
+                            <input type="radio" id="fundive" name="contact-reason" value="fundive" class="radio-input">
+                            <label for="fundive">Book Fun Dive</label>
+                            <br>
+                            <input type="radio" id="message" name="contact-reason" value="message" class="radio-input">
+                            <label for="message">Message/Request</label>
+                        </div>
+                        <br>
+                        <br>
                         <fieldset>
                             <legend>Leave you message here.</legend>
                             <textarea name="add-info" id="addinfo" cols="50" rows="10"></textarea>
                         </fieldset>
-                    <br>
+                        <br>
                         <input type="submit" value="Send Message" class="submit-button">
-                </form>
+                    </form>
                 </div>
             </div>
 
             <!-- Third div Find Us -->
             <div id="boxes">
                 <div class="box-content find-us-style">
+
+                    <h2>Opening Hours</h2>
+                    <table id="open-table">
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <th>Open</th>
+                                <th>Close</th>
+                            </tr>
+                            <tr>
+                                <td class="open-day">Monday-Friday</td>
+                                <td>07:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td class="open-day">Saturday-Sunday</td>
+                                <td>07:00</td>
+                                <td>18:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <hr>
+                    <br>
                     <h2>How to find us</h2>
                     <br>
                     <p>Drop by the shop anytime during our opening hours and we will happily help you with you requests!
@@ -208,33 +233,13 @@
                             </tr>
                         </tbody>
                     </table>
-                    <br>
-                    <hr>
-                    <br>
-                    <h2>Opening Hours</h2>
-                    <table id="open-table">
-                        <tbody>
-                            <tr>
-                                <th></th>
-                                <th>Open</th>
-                                <th>Close</th>
-                            </tr>
-                            <tr>
-                                <td class="open-day">Monday-Friday</td>
-                                <td>07:00</td>
-                                <td>20:00</td>
-                            </tr>
-                            <tr>
-                                <td class="open-day">Saturday-Sunday</td>
-                                <td>07:00</td>
-                                <td>18:00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div id="map-wrapper">
+                        <iframe id="map"src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3947.538048196603!2d116.03803007673606!3d-8.348610970256145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjAnNTUuMCJTIDExNsKwMDInMzQuNCJF!5e0!3m2!1sen!2snl!4v1682941353028!5m2!1sen!2snl"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <!--GOOGLE MAPS API-->
             </div>
         </section>
 
