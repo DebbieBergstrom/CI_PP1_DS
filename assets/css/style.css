@@ -93,7 +93,7 @@ nav a {
 /* Hero image and slogan text */
 
 #hero-out {
-    height: 600px;
+    height: 680px;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -101,12 +101,12 @@ nav a {
 
 #slogan {
     background-color: rgb(230, 0, 88, .7);
-    width: 278px;
-    height: 96px;
+    width: 270px;
+    height: 94px;
     padding: 20px;
     position: absolute;
-    bottom: 100px;
-    right: 130px;
+    bottom: 130px;
+    right: 170px;
     border-radius: 15px;
     box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.5);
 }
@@ -119,6 +119,7 @@ nav a {
 }
 
 #hero-image {
+    margin-top: 100px;
     height: 580px;
     background: url('../image/hero_image.jpg') no-repeat center center;
     background-size: cover;
@@ -505,6 +506,19 @@ footer li {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1200px) {
+
+    #slogan {
+        width: 180px;
+        height: 94px;
+        bottom: 116px;
+        right: 170px;
+    }
+
+    #slogan h3 {
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -513,6 +527,25 @@ footer li {
         margin: 0 auto;
     }
 
+    #hero-image {
+        margin-top: 68px;
+        height: 510px;
+    }
+
+    #hero-out {
+        height: 500px;
+    }
+
+    #slogan {
+        width: 150px;
+        height: 70px;
+        bottom: 130px;
+        right: 174px;
+    }
+
+    #slogan h3 {
+        font-size: 0.8rem;
+    }
 
     #banner {
         height: auto;
@@ -537,13 +570,25 @@ footer li {
     }
 
     .banner-h3,
-    #banner h2,
     #banner p {
         font-size: 80%;
     }
 
 }
 
+@media screen and (max-width: 750px) {
+    #slogan h3 {
+        font-size: 0.7rem;
+    }
+
+    #slogan {
+        width: 150px;
+        height: 70px;
+        bottom: 130px;
+        right: 174px;
+        padding: 15px;
+    }
+}
 
 @media screen and (max-width: 570px) {
 
@@ -564,19 +609,23 @@ footer li {
     }
 
     .banner-ring {
-        height: 90px;
-        width: 120px;
+        height: 100px;
+        width: 110px;
         border-radius: 50%;
-        border: 3px solid #34a7c3;
+        border: 1px solid #34a7c3;
         box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .banner-h3,
-    #banner h2,
-    #banner p {
+    .banner-h3 {
+        padding: 2px;
+        border-radius: 10px;
         font-size: 40%;
+    }
+
+    #banner p {
+        font-size: 60%;
     }
 }
