@@ -176,7 +176,7 @@ nav a {
 }
 
 #left-ring {
-    background: url(/assets/image/close_up_s.jpg) no-repeat center center;
+    background: url(https://debbiebergstrom.github.io/CI_PP1_DS/assets/image/close_up_s.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -625,12 +625,6 @@ footer li {
     
     #logo {
         line-height: 1rem;
-        font-size: 12px;
-    }
-
-
-
-    p {
         font-size: 12px;
     }
 
