@@ -67,7 +67,7 @@ nav {
 nav a {
     font-family: 'Bruno Ace';
     color: #ccf2f5;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #menu li {
@@ -181,12 +181,12 @@ nav a {
 }
 
 #right-ring {
-    background: url(/assets/image/group_divers.jpg) no-repeat center center;
+    background: url(https://debbiebergstrom.github.io/CI_PP1_DS/assets/image/group_divers.jpg) no-repeat center center;
     background-size: cover;
 }
 
 #center-ring {
-    background: url(/assets/image/buddy_team_s.jpg) no-repeat center center;
+    background: url(https://debbiebergstrom.github.io/CI_PP1_DS/assets/image/buddy_team_s.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -522,188 +522,196 @@ footer li {
 
 @media screen and (max-width: 1024px) {
 
-    #hero-image {
-        margin-top: 68px;
-        height: 510px;
-    }
-
-    #hero-out {
-        height: 600px;
-    }
-
-    #slogan {
-        width: 150px;
-        height: 70px;
-        bottom: 130px;
-        right: 174px;
-    }
-
-    #slogan h3 {
-        font-size: 0.8rem;
-    }
-
-    .box-content {
-        width: 80%;
-        margin-top: 40px;
-    }
-
-    #all-pages-heading {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    
-    #hero-out {
-        height: 430px;
-    }
-
-    #hero-image {
-        height: 350px;
-        margin-top: 80px;
-    }
-
-    #logo {
-        font-size: 16px;
-    }
-
-    #slogan h3 {
-        font-size: 0.7rem;
-    }
-
-    #slogan {
-        width: 150px;
-        height: 70px;
-        bottom: 30px;
-        right: 75px;
-        padding: 15px;
-    }
-    
-    #banner {
-        height: auto;
-        max-width: auto;
-        margin-top: 18px;
-        margin-bottom: -18px;
-        display: flex;
-        justify-content: flex-end;
-        border-radius: 6px;
-        align-items: center;
-    } 
-
-    .banner-ring {
-        height: 137px;
-        width: 182px;
-        border-radius: 50%;
-        border: 3px solid #34a7c3;
-        box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .banner-h3, .banner p {
-        font-size: 80%;
-    }
-
-    .banner-p {
-        width: 222px;
-        font-size: 14px;
-    }
-
-    footer {
-        height: 2rem;
-    }
-}
-
-@media screen and (max-width: 428px) {
-
-    .head-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    
-    #logo {
-        line-height: 1rem;
-        font-size: 12px;
-    }
-
-    #menu {
-        line-height: 1rem;
-        width: 100%;
-    }
-
-    #hero-out {
-        height: 430px;
-    }
-
-    #hero-image {
-        height: 350px;
-        margin-top: 80px;
-    }
-
-    #banner {
-        height: auto;
-        max-width: 570px;
-        margin-top: 18px;
-        margin-bottom: -18px;
-        display: flex;
-        border-radius: 4px;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .banner-ring {
-        height: 100px;
-        width: 110px;
-        border-radius: 50%;
-        border: 1px solid #34a7c3;
-        box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .banner-h3 {
-        padding: 2px;
-        border-radius: 10px;
-        font-size: 40%;
-    }
-
-    #banner p {
-        font-size: 60%;
-    }
-
-   .image-grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    }
-
     nav a {
-        font-family: 'Bruno Ace';
-        color: #ccf2f5;
-        font-size: 8px;
+        font-size: 12px;
+
+        #hero-image {
+            margin-top: 68px;
+            height: 510px;
+        }
+
+        #hero-out {
+            height: 600px;
+        }
+
+        #slogan {
+            width: 150px;
+            height: 70px;
+            bottom: 130px;
+            right: 174px;
+        }
+
+        #slogan h3 {
+            font-size: 0.8rem;
+        }
+
+        .box-content {
+            width: 80%;
+            margin-top: 40px;
+        }
+
+        #all-pages-heading {
+            width: 80%;
+        }
     }
 
-    #slogan {
-        width: 259px;
-        height: 35px;
+    @media screen and (max-width: 768px) {
+
+        nav a {
+            font-size: 11px;
+        }
+
+        #hero-out {
+            height: 430px;
+        }
+
+        #hero-image {
+            height: 350px;
+            margin-top: 80px;
+        }
+
+        #logo {
+            font-size: 16px;
+        }
+
+        #slogan h3 {
+            font-size: 0.7rem;
+        }
+
+        #slogan {
+            width: 150px;
+            height: 70px;
+            bottom: 30px;
+            right: 75px;
+            padding: 15px;
+        }
+
+        #banner {
+            height: auto;
+            max-width: auto;
+            margin-top: 18px;
+            margin-bottom: -18px;
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 6px;
+            align-items: center;
+        }
+
+        .banner-ring {
+            height: 137px;
+            width: 182px;
+            border-radius: 50%;
+            border: 3px solid #34a7c3;
+            box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-h3,
+        .banner p {
+            font-size: 80%;
+        }
+
+        .banner-p {
+            width: 222px;
+            font-size: 14px;
+        }
+
+        footer {
+            height: 2rem;
+        }
     }
-}
 
-@media screen and (max-width: 376px) {
+    @media screen and (max-width: 428px) {
 
-    #slogan {
-        width: 259px;
-        height: 35px;
-        margin-right: -39px;
+        .head-container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #logo {
+            line-height: 1rem;
+            font-size: 12px;
+        }
+
+        #menu {
+            line-height: 1rem;
+            width: 100%;
+        }
+
+        #hero-out {
+            height: 430px;
+        }
+
+        #hero-image {
+            height: 350px;
+            margin-top: 80px;
+        }
+
+        #banner {
+            height: auto;
+            max-width: 570px;
+            margin-top: 18px;
+            margin-bottom: -18px;
+            display: flex;
+            border-radius: 4px;
+            align-items: flex-start;
+            justify-content: space-evenly;
+        }
+
+        .banner-ring {
+            height: 100px;
+            width: 110px;
+            border-radius: 50%;
+            border: 1px solid #34a7c3;
+            box-shadow: 10px 10px 40px rgba(0, 0, 0, .6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-h3 {
+            padding: 2px;
+            border-radius: 10px;
+            font-size: 40%;
+        }
+
+        #banner p {
+            font-size: 60%;
+        }
+
+        .image-grid-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        nav a {
+            font-family: 'Bruno Ace';
+            color: #ccf2f5;
+            font-size: 8px;
+        }
+
+        #slogan {
+            width: 259px;
+            height: 35px;
+        }
     }
-}
 
-@media screen and (max-width: 328px) {
+    @media screen and (max-width: 376px) {
 
-    #slogan {
-        width: 248px;
-        height: 35px;
-        margin-right: -53px;
+        #slogan {
+            width: 259px;
+            height: 35px;
+            margin-right: -39px;
+        }
     }
-}
+
+    @media screen and (max-width: 328px) {
+
+        #slogan {
+            width: 248px;
+            height: 35px;
+            margin-right: -53px;
+        }
+    }
