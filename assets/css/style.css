@@ -297,10 +297,6 @@ th {
     text-align: center;
 }
 
-.table-h2 {
-    padding: 20px 0px 10px 0px
-}
-
 input {
     border: 1px solid #34a7c3;
     border-radius: 5px;
@@ -658,6 +654,16 @@ footer li {
         margin-top: 80px;
     }
 
+    #slogan {
+        width: 259px;
+        height: 35px;
+    }
+
+    h2,
+    h3 {
+        font-size: 90%;
+    }
+
     #banner {
         height: auto;
         max-width: 570px;
@@ -690,60 +696,62 @@ footer li {
         font-size: 60%;
     }
 
+    #map {
+        height: 50%;
+        width: 80vw;
+    }
+
     .image-grid-container {
         grid-template-columns: 1fr;
+        }
     }
 
-    #slogan {
-        width: 259px;
-        height: 35px;
-    }
-}
+    @media screen and (max-width: 376px) {
 
-@media screen and (max-width: 376px) {
+        #logo {
+            margin-left: -3px;
+            font-size: 14px;
+            letter-spacing: 3px;
+        }
 
-    #logo {
-        margin-left: -3px;
-        font-size: 14px;
-        letter-spacing: 3px;
-    }
+        nav {
+            margin-right: -6px;
+        }
 
-    nav {
-        margin-right: -6px;
-    }
+        nav a {
+            font-size: 8px;
+        }
 
-    nav a {
-        font-size: 8px;
-    }
-
-    #slogan {
-        width: 259px;
-        height: 35px;
-        margin-right: -39px;
-    }
-}
-
-@media screen and (max-width: 328px) {
-
-    #slogan {
-        width: 248px;
-        height: 35px;
-        margin-right: -53px;
+        #slogan {
+            width: 259px;
+            height: 35px;
+            margin-right: -39px;
+        }
     }
 
-    
-    .banner-ring {
-        height: 95px;
-        width: 105px;
+    @media screen and (max-width: 328px) {
+
+        #slogan {
+            width: 248px;
+            height: 35px;
+            margin-right: -53px;
+        }
+
+
+        .banner-ring {
+            height: 95px;
+            width: 105px;
+        }
+
+        .banner-h3 {
+            padding: 1, 5px;
+            border-radius: 10px;
+
+        }
+
+        #banner p {
+            font-size: 55%;
+        }
     }
 
-    .banner-h3 {
-        padding: 1,5px;
-        border-radius: 10px;
-       
     }
-
-    #banner p {
-        font-size: 55%;
-    }
-}
