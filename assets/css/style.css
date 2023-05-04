@@ -683,7 +683,7 @@ footer li {
     }
 
     p {
-        font-size: 70%
+        font-size: 80%
     }
 
     #banner {
@@ -716,6 +716,21 @@ footer li {
 
     #banner p {
         font-size: 60%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type=radio] {
+        transform: scale(0.7);
     }
 
     .image-grid-container {
