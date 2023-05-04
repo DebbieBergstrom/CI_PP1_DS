@@ -279,6 +279,7 @@ hr {
 
 .radio-input {
     width: 10%;
+    height: auto;
 }
 
 input:focus {
