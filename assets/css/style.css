@@ -76,19 +76,19 @@ nav a {
     margin-right: 0.5rem;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 4rem;
     background-color: #34a7c3;
 }
 
-#menu li :hover {
+#menu a:hover {
     border-bottom: 1px solid rgb(230, 0, 88);
 }
 
 .active {
     border-bottom: 1px solid rgb(230, 0, 88);
 }
+
 
 /* Hero image and slogan text */
 
@@ -285,7 +285,7 @@ table {
 th,
 td {
     text-align: center;
-    padding: 5px;
+    padding: 0.4rem;
 }
 
 th {
