@@ -284,7 +284,7 @@ table {
 
 th,
 td {
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
 
@@ -550,6 +550,12 @@ footer li {
     #all-pages-heading {
         width: 80%;
     }
+
+    #map {
+        height: 50%;
+        width: 80vw;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -694,11 +700,6 @@ footer li {
 
     #banner p {
         font-size: 60%;
-    }
-
-    #map {
-        height: 50%;
-        width: 80vw;
     }
 
     .image-grid-container {
