@@ -282,10 +282,9 @@ table {
     margin-bottom: 4px;
 }
 
-th,
-td {
+th, td {
     text-align: center;
-    padding: 0.4rem;
+    padding: 0.2rem;
 }
 
 th {
@@ -619,6 +618,11 @@ footer li {
     .banner-p {
         width: 222px;
         font-size: 14px;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 0rem;
     }
 
     .image-grid-container {
