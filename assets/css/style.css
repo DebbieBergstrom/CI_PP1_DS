@@ -76,7 +76,8 @@ nav a {
     margin-right: 0.5rem;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 4rem;
     background-color: #34a7c3;
 }
@@ -162,6 +163,11 @@ nav a {
     letter-spacing: 1px;
     padding: 4px;
     border-radius: 12px;
+}
+
+.banner-h3:hover {
+    font-size: 110%;
+    background-color: rgba(23, 103, 123, 0.8);
 }
 
 .banner-ring {
@@ -281,7 +287,8 @@ table {
     margin-bottom: 30px;
 }
 
-th, td {
+th,
+td {
     text-align: center;
     padding: 0.2rem;
 }
@@ -608,7 +615,8 @@ footer li {
         font-size: 14px;
     }
 
-    th, td {
+    th,
+    td {
         text-align: center;
         padding: 0rem;
     }
@@ -700,61 +708,61 @@ footer li {
 
     .image-grid-container {
         grid-template-columns: 1fr;
-        }
+    }
 
     #all-pages-heading {
         line-height: 1.1rem;
         margin-top: 100px;
     }
+}
+
+/* MOBILE M 375px */
+@media screen and (max-width: 376px) {
+
+    #logo {
+        margin-left: -3px;
+        font-size: 14px;
+        letter-spacing: 3px;
     }
 
-    /* MOBILE M 375px */
-    @media screen and (max-width: 376px) {
+    nav {
+        margin-right: -6px;
+    }
 
-        #logo {
-            margin-left: -3px;
-            font-size: 14px;
-            letter-spacing: 3px;
-        }
+    nav a {
+        font-size: 8px;
+    }
 
-        nav {
-            margin-right: -6px;
-        }
+    #slogan {
+        width: 259px;
+        height: 35px;
+        margin-right: -39px;
+    }
+}
 
-        nav a {
-            font-size: 8px;
-        }
 
-        #slogan {
-            width: 259px;
-            height: 35px;
-            margin-right: -39px;
-        }
+/* SMALL MOBILE 328px */
+@media screen and (max-width: 328px) {
+
+    #slogan {
+        width: 248px;
+        height: 35px;
+        margin-right: -53px;
     }
 
 
-    /* SMALL MOBILE 328px */
-    @media screen and (max-width: 328px) { 
-
-        #slogan {
-            width: 248px;
-            height: 35px;
-            margin-right: -53px;
-        }
-
-
-        .banner-ring {
-            height: 95px;
-            width: 105px;
-        }
-
-        .banner-h3 {
-            padding: 1, 5px;
-            border-radius: 10px;
-
-        }
-
-        #banner p {
-            font-size: 55%;
-        }
+    .banner-ring {
+        height: 95px;
+        width: 105px;
     }
+
+    .banner-h3 {
+        padding: 1, 5px;
+        border-radius: 10px;
+
+    }
+
+    #banner p {
+        font-size: 55%;
+    }
+}
