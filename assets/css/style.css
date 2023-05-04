@@ -278,8 +278,7 @@ hr {
 table {
     border-collapse: seperate;
     width: 100%;
-    border-spacing: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 30px;
 }
 
 th, td {
@@ -332,15 +331,16 @@ textarea {
     transition: all 0.3s ease;
 }
 
-.submit-button:active {
-    box-shadow: none;
-    transform: translateY(2px);
-}
-
 .submit-button:hover {
     background-color: #ccf2f5;
     color: rgb(42 117 136);
     cursor: pointer;
+}
+
+
+.submit-button:active {
+    box-shadow: none;
+    transform: translateY(2px);
 }
 
 /* GOOGLE MAP */
@@ -501,20 +501,7 @@ footer li {
 
 /* MEDIA QUERIES */
 
-/* @media screen and (max-width: 1200px) {
-
-    #slogan {
-        width: 180px;
-        height: 94px;
-        bottom: 116px;
-        right: 170px;
-    }
-
-    #slogan h3 {
-        font-size: 1rem;
-    }
-} */
-
+/* LAPTOP 1024px */
 @media screen and (max-width: 1024px) {
 
     nav a {
@@ -557,6 +544,7 @@ footer li {
 
 }
 
+/* TABLET 768px */
 @media screen and (max-width: 768px) {
 
     nav a {
@@ -633,6 +621,7 @@ footer li {
     }
 }
 
+/* MOBILE L 428px */
 @media screen and (max-width: 428px) {
 
     nav a {
@@ -711,6 +700,7 @@ footer li {
         }
     }
 
+    /* MOBILE M 375px */
     @media screen and (max-width: 376px) {
 
         #logo {
@@ -734,7 +724,9 @@ footer li {
         }
     }
 
-    @media screen and (max-width: 328px) {
+
+    /* SMALL MOBILE 328px */
+    @media screen and (max-width: 328px) { 
 
         #slogan {
             width: 248px;
@@ -757,6 +749,4 @@ footer li {
         #banner p {
             font-size: 55%;
         }
-    }
-
     }
