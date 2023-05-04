@@ -281,6 +281,14 @@ hr {
     width: 10%;
 }
 
+input:focus {
+    background: rgb(164, 237, 202);
+}
+
+textarea:focus {
+    background: rgb(194, 250, 242);
+}
+
 table {
     border-collapse: seperate;
     width: 100%;
