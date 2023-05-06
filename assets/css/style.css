@@ -525,6 +525,25 @@ footer li {
     padding-top: 20px;
 }
 
+PAGE 404
+
+.error-message h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.error-message p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.error-message img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
 /* MEDIA QUERIES */
 
 /* LAPTOP 1024px */
