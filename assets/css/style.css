@@ -547,6 +547,8 @@ PAGE 404
 }
 
 .error-message img {
+    width: 461px;
+    height: 334px;
     margin-bottom: 20px;
     position: absolute;
     text-align: center;
