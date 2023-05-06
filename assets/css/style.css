@@ -563,6 +563,10 @@ footer li {
         width: 80%;
     }
 
+    textarea { 
+    width: 70vw;
+    }
+
     #map {
         height: 50%;
         width: 80vw;
