@@ -547,12 +547,11 @@ PAGE 404
 }
 
 .error-message img {
-    max-width: 100%;
-    height: 100%;
     margin-bottom: 20px;
-    position: relative;
+    position: absolute;
+    text-align: center;
+    margin: auto;
 }
-
 
 /* MEDIA QUERIES */
 
