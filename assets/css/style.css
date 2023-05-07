@@ -13,7 +13,7 @@ body {
     background-color: #34a7c3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    color:#F5F5F5;
+    color:white;
 }
 
 .page-max-width {
@@ -24,7 +24,7 @@ body {
 h2,
 h3 {
     font-family: 'Bruno Ace';
-    color: #F5F5F5;
+    color: white;
 }
 
 /* Header logo and nav menu */
@@ -54,7 +54,7 @@ header a {
 #logo {
     font-family: 'Bruno Ace SC';
     font-weight: 700;
-    color: #F5F5F5;
+    color: white;
     letter-spacing: 4px;
     font-size: 2rem;
     margin-left: 16px;
@@ -66,7 +66,7 @@ nav {
 
 nav a {
     font-family: 'Bruno Ace';
-    color: #F5F5F5;
+    color: white;
     font-size: 16px;
 }
 
@@ -113,7 +113,7 @@ nav a {
 }
 
 #slogan h2 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     letter-spacing: 2px;
     text-align: center;
     line-height: 1.5;
@@ -251,7 +251,7 @@ nav a {
 .box-content {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #F5F5F5;
+    color: white;
     background-color: rgb(42 117 136 / 80%);
     letter-spacing: 1px;
     padding: 20px;
@@ -272,7 +272,7 @@ nav a {
 }
 
 hr {
-    border: #F5F5F5 1px solid;
+    border: white 1px solid;
 }
 
 .radio-input {
@@ -297,7 +297,7 @@ td {
 }
 
 th {
-    color: #F5F5F5;
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -308,7 +308,7 @@ th {
 input {
     border: 1px solid #34a7c3;
     border-radius: 5px;
-    background-color: #F5F5F5;
+    background-color: white;
     color: #2a2a2a;
     width: 100%;
     height: 25px;
@@ -324,7 +324,7 @@ input {
 textarea {
     border: 1px solid #34a7c3;
     border-radius: 5px;
-    background-color: #F5F5F5;
+    background-color: white;
     width: 60vw;
     max-width: 800px;
     resize: none;
@@ -348,7 +348,7 @@ textarea:focus {
     width: auto;
     background-color: rgb(42 117 136);
     font-size: 80%;
-    color: #F5F5F5;
+    color: white;
     border-radius: 20px;
     box-shadow: 0px 3px 0px #225566, 0px 2px 10px rgba(0, 0, 0, 0.5);
     padding: 4px 6px;
@@ -356,7 +356,7 @@ textarea:focus {
 }
 
 .submit-button:hover {
-    background-color: #F5F5F5;
+    background-color: white;
     color: rgb(42 117 136);
     cursor: pointer;
 }
@@ -378,7 +378,7 @@ textarea:focus {
     max-width: 800px;
     border: 1px solid #34a7c3;
     border-radius: 5px;
-    background-color: #F5F5F5;
+    background-color: white;
 }
 
 .bottom-box-margin {
@@ -405,7 +405,7 @@ footer li {
 }
 
 .social-media a {
-    color: #F5F5F5;
+    color: white;
 }
 
 .social-media {
@@ -462,7 +462,7 @@ footer li {
 
 #all-pages-contact-link a {
     text-decoration: none;
-    color: #F5F5F5;
+    color: white;
 }
 
 /* PAGE 2 - COURSES */
@@ -552,7 +552,7 @@ footer li {
 }
 
 #error-message a {
-    color: #F5F5F5;
+    color: white;
     font-size: 110%; 
     border-bottom: 2px solid  rgb(230, 0, 88, .7);   
 }
@@ -583,7 +583,7 @@ footer li {
         right: 90px;
     }
 
-    #slogan h3 {
+    #slogan h2 {
         font-size: 0.8rem;
     }
 
