@@ -16,7 +16,7 @@ body {
     color: #ccf2f5;
 }
 
-#page-max-width {
+.page-max-width {
     max-width: 1500px;
     margin: 0 auto;
 }
@@ -243,7 +243,7 @@ nav a {
 }
 
 /* boxes for home page flex containers */
-#boxes {
+.flex-boxes {
     display: flex;
     justify-content: space-around;
 }
@@ -455,7 +455,7 @@ footer li {
     background-color: #450124;
     color:  #ccf2f5; 
     cursor: pointer;  */
-}
+
 
 #all-pages-contact-link:active {
     box-shadow: none;
@@ -535,7 +535,7 @@ footer li {
     margin-top: 300px;
 }
 
-#error-message > h1 {
+#error-message > h2 {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
