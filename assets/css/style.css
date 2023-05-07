@@ -556,7 +556,7 @@ footer li {
 #error-message a {
     color: #a9f1f7;
     font-size: 110%; 
-    border-bottom: 2px solid rgb(5, 104, 197);;   
+    border-bottom: 2px solid  rgb(230, 0, 88, .7);   
 }
 
 
