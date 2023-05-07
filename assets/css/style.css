@@ -112,8 +112,8 @@ nav a {
     box-shadow: 25px 20px 50px rgba(0, 0, 0, 0.5);
 }
 
-#slogan h3 {
-    font-size: 1.2rem;
+#slogan h2 {
+    font-size: 0.8rem;
     letter-spacing: 2px;
     text-align: center;
     line-height: 1.5;
@@ -722,6 +722,10 @@ footer li {
         height: 35px;
     }
 
+    #slogan h2 {
+        font-size: 0.7rem;
+    }
+
     h2 {
         font-size: 80%;
     }
@@ -825,7 +829,6 @@ footer li {
         height: 35px;
         margin-right: -53px;
     }
-
 
     .banner-ring {
         height: 95px;
