@@ -134,9 +134,8 @@ nav a {
 /* zoom effect level of the hero image */
 @keyframes zoom-hero {
     from {
-        transform: scale (1);
+        transform: scale(1);
     }
-
     to {
         transform: scale(1.1);
     }
@@ -287,7 +286,7 @@ input:focus {
 }
 
 table {
-    border-collapse: seperate;
+    border-collapse:separate;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -643,7 +642,7 @@ footer li {
 
     #banner {
         height: auto;
-        max-width: auto;
+        width: auto;
         margin-top: 18px;
         margin-bottom: -18px;
         display: flex;
@@ -835,7 +834,7 @@ footer li {
     }
 
     .banner-h3 {
-        padding: 1, 5px;
+        padding: 1px;
         border-radius: 10px;
 
     }
