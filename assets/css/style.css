@@ -789,8 +789,8 @@ footer li {
         transform: scale(0.7);
     }
 
-    .table-data {
-        text-align: center;
+    table {
+        font-size: 80%;
     }
 
     .image-grid-container {
