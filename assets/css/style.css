@@ -305,7 +305,7 @@ th {
     margin-bottom: 5px;
 }
 
-.open-day {
+.table-data {
     text-align: center;
 }
 
@@ -496,7 +496,7 @@ footer li {
 }
 
 
-.boat-p {
+.boat-prices-p {
     margin-bottom: 20px;
 }
 
@@ -789,6 +789,10 @@ footer li {
         transform: scale(0.7);
     }
 
+    .table-data {
+        text-align: center;
+    }
+
     .image-grid-container {
         grid-template-columns: 1fr;
     }
@@ -798,6 +802,8 @@ footer li {
         margin-top: 100px;
         letter-spacing: 5px;
     }
+
+
 }
 
 /* MOBILE M 375px */
