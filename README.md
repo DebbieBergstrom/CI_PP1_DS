@@ -177,7 +177,12 @@ The banner contains:
 
 **GALLERY**
 
+- Simple and visually appealing page that showcases a variety of colorful and amazing pictures taken by the dive shop.
+- The page is fully responsive and adjusts from 3 rows to one row depending on the user's screen size, making it easy to view and browse through the images on any device.
+- The page is designed to be simple allowing users to focus on the stunning images without any distractions.
 
+![](/docs/screenshots/screenshot_gallery.png)
+![](/docs/screenshots/screenshot_gallery_428px.png) <sub>(Responsive design for mobile devices)</sub>
 
 ## **Design**
 
