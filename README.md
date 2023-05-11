@@ -161,7 +161,7 @@ The banner contains:
 - A clear and prominent "Contact Us Today" button with the coral pink/red used throughout the website. It's located at the bottom of the page, inviting users to get in touch if they have any questions or want to book a course.
 - Clicking the "Contact Us Today" button takes the user directly to the contact form.
 
-![](/docs/screenshots/screenshot_courses_1.png)
+![](/docs/screenshots/screenshot_courses.png)
 
 
 ## **Design**
