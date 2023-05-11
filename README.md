@@ -10,13 +10,40 @@ Welcome to the Indo Diving Collective, a dive shop website created out of our lo
 
 ## **CONTENT**
 
-table of content with links
+## Table of Content
+
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Returning Visitor Goals](#returning-visitor-goals)
+    3. [Site Owner Goals](#site-owner-goals)
+    4. [Developer Goals](#developer-goals)
+2. [User Experience](#user-experience)
+    1. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Colour](#colours)
+    2. [Fonts](#fonts)
+    3. [Structure](#structure)
+    4. [Wireframes](#wireframes)
+4.  [Features](#features)
+5. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 &nbsp;
 
 ## **GOALS**
-
-
 ### **Project Goals**
 The primary goal of this project is to create a visually appealing, responsive website that promotes the dive shop and encourages users to visit the at the shop or to contact them with any questions or request for booking via a easily found contact form. The website is designed to ensure that access to a returning user's main objectives (booking courses or fun dives and to see boat departure schedule) is user-friendly and efficient. The website should also reflect the dive shop's overall openminded tone, providing a welcoming experience for potential customers.
 
@@ -287,7 +314,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Findex.html)
 
-courses.html [results](hhttps://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fcourses.html) 
+courses.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fcourses.html) 
 
 dive_sites.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fdive_sites.html) 
 
@@ -356,7 +383,7 @@ The website was tested on the following browsers:
 
 ### **Testing User Stories**
 
-
+## **Bugs**
 
 ## **Deployment**
 
@@ -385,3 +412,61 @@ After the webpage refreshes, a ribbon will appear at the top saying that "Your s
 &nbsp;
 
 ## **Credits**
+
+How to create zoom effect on hero image:
+Inspired from the CI Love running project.
+
+How to create box-shadow
+https://www.w3schools.com/css/css3_shadows_box.asp
+
+Box-shadow generator:
+https://html-css-js.com/css/generator/box-shadow/
+
+How to implement google map iframe:
+https://blog.duda.co/responsive-google-maps-for-your-website
+
+How to work with flex-boxes:
+https://www.youtube.com/watch?v=Y_2PFtCj2Nw
+
+How to get fixed backgrounds:
+https://stackoverflow.com/questions/2662039/keep-background-image-fixed-during-scroll-using-css
+
+How to get fixed header and footer:
+https://www.w3schools.com/howto/howto_js_sticky_header.asp
+
+How to style buttons:
+https://www.w3schools.com/css/css3_buttons.asp
+
+How to make grid in css:
+https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+
+How to focus on a textarea:
+https://css-tricks.com/almanac/selectors/f/focus/
+
+How to disable re-size handle in a textarea element:
+https://www.w3docs.com/snippets/css/how-to-disable-the-resizing-of-the-textarea-element.html#:~:text=To%20prevent%20a%20text%20field,with%20its%20%22none%22%20value.&text=After%20it%20you%20can%20use,for%20your%20element.
+
+How to create color scheme: https://coolors.co/ffffff-98f2f9-34a7c3-016172-e60058
+
+Create text content to fictional dive site:
+Together with ChatGPT.
+
+### **Media**
+Background pictures taken from Pexels.
+Most images owned by the developer, but some taken by fantastic underwater photographers and friends. I'd like to give huge thanks for stunning underwater images to:
+
+Jamie [JJAW Underwater Photography](https://www.instagram.com/jamie_justaddwater/?hl=en)
+
+Jasper [JaspersBlueWorld](https://www.instagram.com/jaspersblueworld/)
+
+Erin [GraspingAtStraws](https://www.instagram.com/graspingatstraws/)
+
+
+## **Acknowledgements**
+
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his support, advice and for pushing me in the right way. 
+- My family for being really supportive.
+- To the teachers at Code Institute and Slack for providing help and updates.
+- Friends who shared photos of our dive trips. 
+- My boss at my job who's been supportive and helpful with working scheduls.
