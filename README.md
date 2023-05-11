@@ -87,7 +87,7 @@ The Indo Diving Collective website was designed with the user experience in mind
 
 ## **FEATURES**
 
-The website has four responsive pages, althoug the "Home" page consists of five sections that corresponds to approximatley 3-4 pages. 
+The website has four responsive pages, althoug the "Home" page consists of five sections that corresponds to approximatley 3-4 pages. By using correct HTML markup and labels it is ensured screen readers can accurately interpret the pages.
 
 &nbsp;
 
@@ -144,6 +144,24 @@ The banner contains:
 - With accessibility in mind, using correct HTML markup and labels to ensure screen readers can accurately interpret the form. Additionally, the active window changes color to provide a clear indication of where the user is in the form.
 
 ![](/docs/screenshots/screenshot_index_contactform.png)
+
+&nbsp;
+
+**OPENING HOURS & HOW TO FIND US**
+
+- Structured tables for easy readability and information accessibility
+- Google map embedded in the bottom to provide a visual representation of the shop's location
+
+![](/docs/screenshots/screenshot_index_open_find_us.png)
+
+&nbsp;
+
+**COURSES**
+
+- Provides information about the available courses, including their names a short description and the price for each of them. The price has a USD icon slightly bigger beside it to give an overall more appealing look to relatively high prices.
+- A clear and prominent "Contact Us Today" button with the coral pink/red used throughout the website. It's located at the bottom of the page, inviting users to get in touch if they have any questions or want to book a course.
+- Clicking the "Contact Us Today" button takes the user directly to the contact form.
+
 
 
 
