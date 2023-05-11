@@ -503,7 +503,7 @@ footer li {
 /* PAGE 4 GALLERY */
 
 .gallery-background {
-    background: url('../image/bigblue_s.png') no-repeat center center;
+    background: url('../image/bigblue_s.jpg') no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     background-attachment: fixed;

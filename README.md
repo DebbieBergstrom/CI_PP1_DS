@@ -322,6 +322,42 @@ gallery.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.g
 
 &nbsp;
 
+### **Performance**
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse_index.png">
+</details>
+<details><summary>Courses</summary>
+<img src="docs/validation/lighthouse_courses.png">
+</details>
+<details><summary>Dive Sites</summary>
+<img src="docs/validation/lighthouse_divesites.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse_gallery.png">
+</details>
+
+### **Performing tests on various devices**
+The website was tested on the following devices:
+- Desktop screen 4k
+- Samsung s22 Ultra
+- iPhone XR
+- Samsung 360 Laptop
+
+### **Browser compatability**
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+- Apple Safari
+
+&nbsp;
+
+### **Testing User Stories**
+
+
+
 ## **Deployment**
 
 **To deploy the website, the following steps were taken using GitHub Pages:**
