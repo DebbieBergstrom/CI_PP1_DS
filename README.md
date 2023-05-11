@@ -59,28 +59,28 @@ departures.
 
 The Indo Diving Collective website was designed with the user experience in mind. Our website caters to a broad range of individuals aged 16 and above who are interested in diving, regardless of their experience level. We want our website to provide a simple and user-friendly navigation system that allows our visitors to find relevant information quickly and efficiently. We also aim to provide a visually appealing design that works well on all screen sizes since our customers are believed to be both desktop and mobile users that could possibly plan a dive trip from their home office or be backpackning through Asia relying solely on ther mobile device. Links and functions is expected to function properly and it's important for us to have an easy way for potential customers to contact us. Therefore the content on the site is to be easily readable and last but not least we want our website to be accessible for all users, regardless of their abilities.
 
-**As a first-time user, I want to:** 
-- _learn more about the dive shop, feel a good first impression and a welcoming attitude._
-- _easily find information about the location of the dive shop._
-- _easily contact the dive shop if I have any questions or want to make a reservation._
-- _know the prices for scuba diving courses, fun diving and what's included._
-- _know the schedule for scuba diving trips._
-- _learnabout the different scuba diving courses and dive sites._
-- _see dynamic photos that showcase the dive shop's staff and the beauty of the dive sitess and marine life._
-
-**As a returning user, I want to:**
-- _quickly access the dive shop's boat departure schedule._
-- _find different ways ways to contact the dive shop depending on my preferences._
-- _easily make contact to book a course or fun diving trip with fast and helpful staff._
-- _follow the dive shop on social media to stay up-to-date on news, events and changed schedules._
-- _get directions to the dive shop or to the location of scuba diving trips._
-- _refresh my memory about the different scuba diving courses and dive sites._
-
-**As the site owner, I want users to:**
-- _easily contact us in their prefered way to get a fast and helpful respons without waiting too long._
-- _get a great impression of the dive shop's services and the beauty of the surrounding area._
-- _easily book scuba diving trips and courses through the website._
-- _get a custom made 404 error message with the websites familiar design to nicely direct them back to the website when needed._
+&nbsp;
+### **USER STORIES**
+#### **First time users**
+1. _As a first-time user, I want to learn more about the dive shop, feel a good first impression and a welcoming attitude._
+2. _As a first-time user, I want to easily find information about the location of the dive shop._
+3. _As a first-time user, I want to easily contact the dive shop if I have any questions or want to make a reservation._
+4. _As a first-time user, I want to know the prices for scuba diving courses, fun diving and what's included._
+5. _As a first-time user, I want to know the schedule for scuba diving trips._
+6. _As a first-time user, I want to learn about the different scuba diving courses and dive sites._
+7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff he beauty of the dive sites.
+#### **Returning users**
+8. _As a returning user, I want to quickly access the dive shop's boat departure schedule._
+9. _As a returning user, I want to find different ways ways to contact the dive shop depending on my preferences._
+10. _As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff._
+11. _As a returning user, I want to follow the dive shop on social media to stay up-to-date on news, events and changed schedules._
+12. _As a returning user, I want to get directions to the dive shop or to the location of scuba diving trips._
+13. _As a returning user, I want to refresh my memory about the different scuba diving courses and dive sites._
+#### **Site owner**
+14. _As the site owner, I want users to easily contact us in their prefered way to get a fast and helpful respons without waiting too long._
+15. _As the site owner, I want users to get a great impression of the dive shop's services and the beauty of the surrounding area._
+16. _As the site owner, I want users to easily book scuba diving trips and courses through the website._
+17. _As the site owner, I want users to have a custom made 404 error message with the websites familiar design to direct them back to the website when needed._
 
 &nbsp;
 
@@ -90,7 +90,7 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 
 &nbsp;
 
-**HEADER & NAVIGATION BAR**
+### **HEADER & NAVIGATION BAR**
 
 - Users can access all pages in the fixed header navigation bar to the right. In that way the user never needs to scroll up to find the links the need or the page to have a "go back up" button. 
 - It also contains a fith link - "Contact Us" - that takes the user to the contact form that's further down on the "Home"-page.
@@ -103,7 +103,7 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 
 &nbsp;
 
-**LANDING PAGE / HERO IMAGE**
+### **LANDING PAGE / HERO IMAGE**
 
 - The user is introduced to this vivid and dynamic hero image, taking up much of the screen, which is made with a few seconds of slow, smooth zoom effect to get the feel that the happy diver is coming a little bit closer. 
 - The image sends a positive vibe and also gives the user an adventurous slogan "Are you ready to explore the underwater world?" in text overlay of coral red/pink contrast color the get them intrigued. 
@@ -113,7 +113,7 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 
 &nbsp;
 
-**BANNER SECTION followed by ABOUT US**
+### **BANNER SECTION followed by ABOUT US**
 
 The banner contains:
 - Inside the light blue banner there's three clickable links with round image backgrounds that speak directly to the user's needs and desires.
@@ -130,7 +130,7 @@ The banner contains:
 
 &nbsp;
 
-**CONTACT FORM**
+### **CONTACT FORM**
 
 - The contact form can be accessed from any "Contact Us" link on the website.
 - It is placed directly below the "About Us" section so users see it when they scroll down.
@@ -146,7 +146,7 @@ The banner contains:
 
 &nbsp;
 
-**OPENING HOURS & HOW TO FIND US**
+### **OPENING HOURS & HOW TO FIND US**
 
 - Structured tables for easy readability and information accessibility
 - Google map embedded in the bottom to provide a visual representation of the shop's location
@@ -155,7 +155,7 @@ The banner contains:
 
 &nbsp;
 
-**COURSES**
+### **COURSES**
 
 - Provides information about the available courses, including their names a short description and the price for each of them. The price has a USD icon slightly bigger beside it to give an overall more appealing look to relatively high prices.
 - A clear and prominent "Contact Us Today" button with the coral pink/red used throughout the website. It's located at the bottom of the page, inviting users to get in touch if they have any questions or want to book a course.
@@ -165,7 +165,7 @@ The banner contains:
 
 &nbsp;
 
-**DIVE SITES**
+### **DIVE SITES**
 
 - Provides brief information about the three major dive sites.
 - In the bottom the page displays the schedule for boat departures along with the prices for different packages for fun diving.
@@ -175,7 +175,7 @@ The banner contains:
 
 &nbsp;
 
-**GALLERY**
+### **GALLERY**
 
 - Simple and visually appealing page that showcases a variety of colorful and amazing pictures taken by the dive shop.
 - The page is fully responsive and adjusts from 3 rows to one row depending on the user's screen size, making it easy to view and browse through the images on any device.
@@ -186,7 +186,7 @@ The banner contains:
 
 &nbsp;
 
-**404 - PAGE NOT FOUND ERROR MESSAGE**
+### **404 - PAGE NOT FOUND ERROR MESSAGE**
 
 A custom-made 404 error page was made since it is a simple yet effective way to improve the user experience on your website and keep users happy even if an error page occurs. It has the header, footer and colors from the original design. A dive mask image with a little fun text underneath helps the user back to the "Home" page. 
 
@@ -196,14 +196,33 @@ A custom-made 404 error page was made since it is a simple yet effective way to 
 
 ## **DESIGN**
 
-**Colors**
+### **Colors**
 - Color scheme inspiration was taken from the various shades of green and blue found in the ocean. These colors are not only the developer's favorites but also have a calming effect that was desired to convey to the visitors. 
 - A complementary color was added for sharp contrast. Color was taken from the pink corals featured in the background image of the "Home" page. This color is used throughout the page to create a sense of continuity, but with varying opacity depending on where it is used. White was chosen for all text to create a clear contrast against the darker turquoise background as it's the main color of the site. 
 - These design choices was thought to help create a visually appealing and cohesive website that will leave a positive impression on our visitors.
 
 ![](/docs/screenshots/screenshot_color_scheme.png)
 
-**Fonts**
+### **Fonts**
+
+- Logo /h1: Bruno Ace SC (capital letters)
+- Rest of the headings: Bruno Ace (lower case letters)
+- Font set to the body of the page (and therefore also as a fallback font to the headings): Arial, Helvetica, sans-serif.
+
+The font used for headings had a design to it that really felt like it could fit this dive shop. 
+
+### **Structure**
+The site has been designed with a user-friendly and intuitive structure. Upon arrival, the user is greeted with a navigation bar that features the logo on the left and links to different sections of the website on the right.
+
+The website is composed of four distinct pages:
+
+- The homepage, which features sections information about the shop, contact form, opening hours, contact information and a map of location.
+- An Courses page, which provides information about the courses the dive shop teaches. 
+- The Dive Sites page, which showcases the different dive sites and boat departures.
+- A Gallery page, which features images that provide a glimpse of the experience of diving there.
+
+By organizing the content into distinct pages, the Diveshop website makes it easy for users to navigate and find the information they are looking for. Additionally, the use of a consistent navigation bar and footer throughout the website ensures that users can always find their way back to the main sections of the website and find the social media links.
+
 
 ## **Technologies Used**
 
