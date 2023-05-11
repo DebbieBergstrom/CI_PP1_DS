@@ -163,6 +163,21 @@ The banner contains:
 
 ![](/docs/screenshots/screenshot_courses.png)
 
+&nbsp;
+
+**DIVE SITES**
+
+- Provides brief information about the three major dive sites.
+- In the bottom the page displays the schedule for boat departures along with the prices for different packages for fun diving.
+- The same clickable contact button as on "Courses" page invites the users to get in touch if they have any questions or want to book a fun dives.
+
+![](/docs/screenshots/screenshot_divesites.png)
+
+&nbsp;
+
+**GALLERY**
+
+
 
 ## **Design**
 
