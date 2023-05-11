@@ -133,7 +133,15 @@ The banner contains:
 
 **CONTACT FORM**
 
-
+- The contact form can be accessed from any "Contact Us" link on the website.
+- It is placed directly below the "About Us" section so users see it when they scroll down.
+- It asks for the usual user information (name, email, phone number), but also if the user is certified and how many dives they have completed.
+- By asking these questions upfront, the user's certification level and experience are already stated before they are asked to write a message with any requests or questions they might have.
+- The placeholder text in the text area asks the user to drop them a message and to have a nice day. This makes the user feel welcome to submit their request.
+- The form is designed to be simple and intuitive, with clear labels and a visually appealing design.
+- The form features a submit button with a hover effect to enhance the user experience.
+- It is fully responsive, ensuring a smooth user experience on all screen sizes.
+- With accessibility in mind, using correct HTML markup and labels to ensure screen readers can accurately interpret the form. Additionally, the active window changes color to provide a clear indication of where the user is in the form.
 
 ![](/docs/screenshots/screenshot_index_contactform.png)
 
