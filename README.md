@@ -51,17 +51,16 @@ departures.
 
 ## **User Experience**
 
-Our website caters to a broad range of individuals aged 10 and above who are interested in diving, regardless of their experience level. We want our website to provide a simple and user-friendly navigation system that allows our visitors to find relevant information quickly and efficiently. We also aim to provide a visually appealing design that works well on all screen sizes since our customers are believed to be both desktop and mobile users that could possibly plan a dive trip from their home office or be backpackning through Asia relying solely on ther mobile device. Links and functions is expected to function properly and it's important for us to have an easy way for potential customers to contact us. Therefore the content on the site is to be easily readable and last but not least we want our website to be accessible for all users, regardless of their abilities.
+The Indo Diving Collective website was designed with the user experience in mind. Our website caters to a broad range of individuals aged 16 and above who are interested in diving, regardless of their experience level. We want our website to provide a simple and user-friendly navigation system that allows our visitors to find relevant information quickly and efficiently. We also aim to provide a visually appealing design that works well on all screen sizes since our customers are believed to be both desktop and mobile users that could possibly plan a dive trip from their home office or be backpackning through Asia relying solely on ther mobile device. Links and functions is expected to function properly and it's important for us to have an easy way for potential customers to contact us. Therefore the content on the site is to be easily readable and last but not least we want our website to be accessible for all users, regardless of their abilities.
 
 **As a first-time user, I want to:** 
-- _learn more about the dive shop, feel a good first impression and a welcoming attitude.
+- _learn more about the dive shop, feel a good first impression and a welcoming attitude._
 - _easily find information about the location of the dive shop._
 - _easily contact the dive shop if I have any questions or want to make a reservation._
-- _know the prices for scuba diving courses, fun diving and what's included.-
+- _know the prices for scuba diving courses, fun diving and what's included._
 - _know the schedule for scuba diving trips._
 - _learnabout the different scuba diving courses and dive sites._
 - _see dynamic photos that showcase the dive shop's staff and the beauty of the dive sitess and marine life._
-
 
 **As a returning user, I want to:**
 - _quickly access the dive shop's boat departure schedule._
@@ -77,9 +76,13 @@ Our website caters to a broad range of individuals aged 10 and above who are int
 - _easily book scuba diving trips and courses through the website._
 - _get a custom made 404 error message with the websites familiar design to nicely direct them back to the website when needed._
 
+## **Features**
+
+
+
 ## **Design**
 
-## **Features**
+
 
 ## **Technologies Used**
 
