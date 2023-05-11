@@ -16,7 +16,6 @@ table of content with links
 
 ## **GOALS**
 
-&nbsp; 
 
 ### **Project Goals**
 The primary goal of this project is to create a visually appealing, responsive website that promotes the dive shop and encourages users to visit the at the shop or to contact them with any questions or request for booking via a easily found contact form. The website is designed to ensure that access to a returning user's main objectives (booking courses or fun dives and to see boat departure schedule) is user-friendly and efficient. The website should also reflect the dive shop's overall openminded tone, providing a welcoming experience for potential customers.
@@ -162,7 +161,7 @@ The banner contains:
 - A clear and prominent "Contact Us Today" button with the coral pink/red used throughout the website. It's located at the bottom of the page, inviting users to get in touch if they have any questions or want to book a course.
 - Clicking the "Contact Us Today" button takes the user directly to the contact form.
 
-
+![](/docs/screenshots/screenshot_courses_1.png)
 
 
 ## **Design**
