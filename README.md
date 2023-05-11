@@ -226,24 +226,40 @@ By organizing the content into distinct pages, the website makes it easy for use
 ### **Wireframes**
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wi">
+<img src="docs/wireframes/wireframes_index.png">
 </details>
-<details><summary>About</summary>
-<img src="docs/wireframes/>
+<details><summary>Courses</summary>
+<img src="docs/wireframes/wireframes_courses.png">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/wireframes/">
+<details><summary>Dive Sites</summary>
+<img src="docs/wireframes/wireframes_divesites.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/wireframes">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/">
+<img src="docs/wireframes/wireframes_gallery.png">
 </details>
 
-
+&nbsp;
 
 ## **Technologies Used**
+
+### **Languages**
+- HTML
+- CSS
+
+### **Frameworks & Tools**
+- Git
+- GitHub
+- Gitpod
+- Tinypng
+- Paint (for Windows)
+- Balsamiq
+- Google Fonts
+- Adobe Photo Shop
+- Font Awsome
+- Favicon.io 
+- W3C validator
+- Jigsaw CSS validator
+- WAVE Web Accessibility Evaluation Tool
 
 ## **Deployment**
 
