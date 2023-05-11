@@ -6,11 +6,17 @@ Welcome to the Indo Diving Collective, a dive shop website created out of our lo
 
 *Please have a look at the deployed website ![here.](https://debbiebergstrom.github.io/CI_PP1_DS/index.html)*
 
-## **Content**
+&nbsp;
+
+## **CONTENT**
 
 table of content with links
 
-## **Goals**
+&nbsp;
+
+## **GOALS**
+
+&nbsp; 
 
 ### **Project Goals**
 The primary goal of this project is to create a visually appealing, responsive website that promotes the dive shop and encourages users to visit the at the shop or to contact them with any questions or request for booking via a easily found contact form. The website is designed to ensure that access to a returning user's main objectives (booking courses or fun dives and to see boat departure schedule) is user-friendly and efficient. The website should also reflect the dive shop's overall openminded tone, providing a welcoming experience for potential customers.
@@ -48,8 +54,9 @@ departures.
 - Create an easy-to-use website with clear navigation and pathways to specific pages.
 - Develop a project that meets the dive shop's needs and exceeds expectations.
 
+&nbsp;
 
-## **User Experience**
+## **USER EXPERIENCE**
 
 The Indo Diving Collective website was designed with the user experience in mind. Our website caters to a broad range of individuals aged 16 and above who are interested in diving, regardless of their experience level. We want our website to provide a simple and user-friendly navigation system that allows our visitors to find relevant information quickly and efficiently. We also aim to provide a visually appealing design that works well on all screen sizes since our customers are believed to be both desktop and mobile users that could possibly plan a dive trip from their home office or be backpackning through Asia relying solely on ther mobile device. Links and functions is expected to function properly and it's important for us to have an easy way for potential customers to contact us. Therefore the content on the site is to be easily readable and last but not least we want our website to be accessible for all users, regardless of their abilities.
 
@@ -76,15 +83,15 @@ The Indo Diving Collective website was designed with the user experience in mind
 - _easily book scuba diving trips and courses through the website._
 - _get a custom made 404 error message with the websites familiar design to nicely direct them back to the website when needed._
 
-## **Features**
+&nbsp;
 
-The website has four pages, althoug the "Home" page consists of five sections that corresponds to approximatley 3-4 pages. 
+## **FEATURES**
 
-**Header & Navigation bar**
+The website has four responsive pages, althoug the "Home" page consists of five sections that corresponds to approximatley 3-4 pages. 
 
-![](/docs/screenshots/screenshot_header_nav.png)
-![](/docs/screenshots/screenshot_navbar_428px.png) (Responsive design for mobile devices)
+&nbsp;
 
+**HEADER & NAVIGATION BAR**
 
 - Users can access all pages in the fixed header navigation bar to the right. In that way the user never needs to scroll up to find the links the need or the page to have a "go back up" button. 
 - It also contains a fith link - "Contact Us" - that takes the user to the contact form that's further down on the "Home"-page.
@@ -92,15 +99,45 @@ The website has four pages, althoug the "Home" page consists of five sections th
 - In the left corner we have the dive shop logo which is also made a link to the "Home" page as most users would expect that from standards. 
 - It's fully responsive from wide desktop screens down to small sized mobile screens to meet all users expectations. The navigation links is therefore presented centered under the logo on mobile devices to fit nicely.
 
+![](/docs/screenshots/screenshot_header_nav.png)
+![](/docs/screenshots/screenshot_header_nav_428px.png) <sub>(Responsive design for mobile devices)</sub>
 
-**Landing page / Hero Image section**
+&nbsp;
 
-![](/docs/screenshots/screenshot_index_1.png)
+**LANDING PAGE / HERO IMAGE**
 
 - The user is introduced to this vivid and dynamic hero image, taking up much of the screen, which is made with a few seconds of slow, smooth zoom effect to get the feel that the happy diver is coming a little bit closer. 
 - The image sends a positive vibe and also gives the user an adventurous slogan "Are you ready to explore the underwater world?" in text overlay of coral red/pink contrast color the get them intrigued. 
+- Below the hero image we see that the page continues, which lets the user know for sure that they can scroll down. 
 
-** 
+![](/docs/screenshots/screenshot_index_top.png)
+
+&nbsp;
+
+**BANNER SECTION followed by ABOUT US**
+
+The banner contains:
+- Inside the light blue banner there's three clickable links with round image backgrounds that speak directly to the user's needs and desires.
+- The links represent the user's potential next steps when visiting the page. They are labeled "I want to learn", "Take me fun diving!" and "Show me pictures".
+- Each link corresponds to a link in the navigation bar that reflects the user's selected need.
+- The banner links are ordered in the same sequence as they appear in the navigation bar after "Home".
+- The links have a hoover effect that looks like the text gets pushed back, so the user sees it's clickable.
+- The section is fully responsive for smaller screen sizes and becomes a litte more compressed but has the same design.
+- Below the banner we immediateley see the "About Us" section letting the user get to know the dive shop a little more. 
+
+![](/docs/screenshots/screenshot_index_banner_about.png)
+![](/docs/screenshots/screenshot_banner_428px.png) <sub>(Responsive design for mobile devices)</sub>
+![](/docs/screenshots/screenshot_index_428px.png) <sub>(Responsive design for mobile devices)</sub>
+
+&nbsp;
+
+**CONTACT FORM**
+
+
+
+![](/docs/screenshots/screenshot_index_contactform.png)
+
+
 
 ## **Design**
 
