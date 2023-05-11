@@ -65,21 +65,21 @@ The Indo Diving Collective website was designed with the user experience in mind
 1. _As a first-time user, I want to learn more about the dive shop, feel a good first impression and a welcoming attitude._
 2. _As a first-time user, I want to easily find information about the location of the dive shop._
 3. _As a first-time user, I want to easily contact the dive shop if I have any questions or want to make a reservation._
-4. _As a first-time user, I want to know the prices for scuba diving courses, fun diving and what's included._
-5. _As a first-time user, I want to know the schedule for scuba diving trips._
+4. _As a first-time user, I want to know the prices for scuba diving courses and fun diving.
+5. _As a first-time user, I want to know the schedule for boat departures._
 6. _As a first-time user, I want to learn about the different scuba diving courses and dive sites._
-7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff he beauty of the dive sites.
+7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff and the beauty of the dive sites.
 #### **Returning users**
 8. _As a returning user, I want to quickly access the dive shop's boat departure schedule._
-9. _As a returning user, I want to find different ways ways to contact the dive shop depending on my preferences._
+9. _As a returning user, I want to find different ways to contact the dive shop depending on my preferences._
 10. _As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff._
 11. _As a returning user, I want to follow the dive shop on social media to stay up-to-date on news, events and changed schedules._
-12. _As a returning user, I want to get directions to the dive shop or to the location of scuba diving trips._
+12. _As a returning user, I want to get directions to the dive shop.
 13. _As a returning user, I want to refresh my memory about the different scuba diving courses and dive sites._
 #### **Site owner**
 14. _As the site owner, I want users to easily contact us in their prefered way to get a fast and helpful respons without waiting too long._
 15. _As the site owner, I want users to get a great impression of the dive shop's services and the beauty of the surrounding area._
-16. _As the site owner, I want users to easily book scuba diving trips and courses through the website._
+16. _As the site owner, I want users to easily be able to book scuba diving trips and courses through the website._
 17. _As the site owner, I want users to have a custom made 404 error message with the websites familiar design to direct them back to the website when needed._
 
 &nbsp;
@@ -93,10 +93,11 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 ### **HEADER & NAVIGATION BAR**
 
 - Users can access all pages in the fixed header navigation bar to the right. In that way the user never needs to scroll up to find the links the need or the page to have a "go back up" button. 
-- It also contains a fith link - "Contact Us" - that takes the user to the contact form that's further down on the "Home"-page.
+- It also contains a fifth link - "Contact Us" - that takes the user to the contact form that's further down on the "Home"-page.
 - Navigation links have a hover effect with a border underline in a sharp contract color for the users to see ut's clickable. The same border underline is there static on the page the user is actively on, so it's easy to see exactly what page is visited. 
 - In the left corner we have the dive shop logo which is also made a link to the "Home" page as most users would expect that from standards. 
 - It's fully responsive from wide desktop screens down to small sized mobile screens to meet all users expectations. The navigation links is therefore presented centered under the logo on mobile devices to fit nicely.
+- User stories covered: 3, 6, 7, 9, 11, 12, 14
 
 ![](/docs/screenshots/screenshot_header_nav.png)
 ![](/docs/screenshots/screenshot_header_nav_428px.png) <sub>(Responsive design for mobile devices)</sub>
@@ -108,6 +109,7 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 - The user is introduced to this vivid and dynamic hero image, taking up much of the screen, which is made with a few seconds of slow, smooth zoom effect to get the feel that the happy diver is coming a little bit closer. 
 - The image sends a positive vibe and also gives the user an adventurous slogan "Are you ready to explore the underwater world?" in text overlay of coral red/pink contrast color the get them intrigued. 
 - Below the hero image we see that the page continues, which lets the user know for sure that they can scroll down. 
+- User stories covered: 7, 15
 
 ![](/docs/screenshots/screenshot_index_top.png)
 
@@ -117,12 +119,13 @@ The website has four responsive pages, althoug the "Home" page consists of five 
 
 The banner contains:
 - Inside the light blue banner there's three clickable links with round image backgrounds that speak directly to the user's needs and desires.
-- The links represent the user's potential next steps when visiting the page. They are labeled "I want to learn", "Take me fun diving!" and "Show me pictures".
+- The links represent the user's potential next steps when visiting the page. They are labeled "I want to learn", "Take me fun diving!" and "Show me pictures" and under them there's a paragraph stating what they will find once clicked.
 - Each link corresponds to a link in the navigation bar that reflects the user's selected need.
 - The banner links are ordered in the same sequence as they appear in the navigation bar after "Home".
 - The links have a hoover effect that looks like the text gets pushed back, so the user sees it's clickable.
 - The section is fully responsive for smaller screen sizes and becomes a litte more compressed but has the same design.
 - Below the banner we immediateley see the "About Us" section letting the user get to know the dive shop a little more. 
+- User stories covered: 1, 4, 6, 8, 13
 
 ![](/docs/screenshots/screenshot_index_banner_about.png)
 ![](/docs/screenshots/screenshot_banner_428px.png) <sub>(Responsive design for mobile devices)</sub>
@@ -141,6 +144,7 @@ The banner contains:
 - The form features a submit button with a hover effect to enhance the user experience.
 - It is fully responsive, ensuring a smooth user experience on all screen sizes.
 - With accessibility in mind, using correct HTML markup and labels to ensure screen readers can accurately interpret the form. Additionally, the active window changes color to provide a clear indication of where the user is in the form.
+- User stories covered: 3, 10, 14
 
 ![](/docs/screenshots/screenshot_index_contactform.png)
 
@@ -150,6 +154,7 @@ The banner contains:
 
 - Structured tables for easy readability and information accessibility
 - Google map embedded in the bottom to provide a visual representation of the shop's location
+- User stories covered: 2, 9, 12, 14, 16
 
 ![](/docs/screenshots/screenshot_index_open_find_us.png)
 
@@ -160,6 +165,7 @@ The banner contains:
 - Provides information about the available courses, including their names a short description and the price for each of them. The price has a USD icon slightly bigger beside it to give an overall more appealing look to relatively high prices.
 - A clear and prominent "Contact Us Today" button with the coral pink/red used throughout the website. It's located at the bottom of the page, inviting users to get in touch if they have any questions or want to book a course.
 - Clicking the "Contact Us Today" button takes the user directly to the contact form.
+- User stories covered: 4, 6, 10, 13, 16
 
 ![](/docs/screenshots/screenshot_courses.png)
 
@@ -170,6 +176,7 @@ The banner contains:
 - Provides brief information about the three major dive sites.
 - In the bottom the page displays the schedule for boat departures along with the prices for different packages for fun diving.
 - The same clickable contact button as on "Courses" page invites the users to get in touch if they have any questions or want to book a fun dives.
+- User stories covered: 4, 6, 10, 13, 16
 
 ![](/docs/screenshots/screenshot_divesites.png)
 
@@ -180,15 +187,24 @@ The banner contains:
 - Simple and visually appealing page that showcases a variety of colorful and amazing pictures taken by the dive shop.
 - The page is fully responsive and adjusts from 3 rows to one row depending on the user's screen size, making it easy to view and browse through the images on any device.
 - The page is designed to be simple allowing users to focus on the stunning images without any distractions.
+- User stories covered: 7, 15
 
 ![](/docs/screenshots/screenshot_gallery.png)
 ![](/docs/screenshots/screenshot_gallery_428px.png) <sub>(Responsive design for mobile devices)</sub>
 
 &nbsp;
 
+### **FOOTER**
+
+- The footer is fixed on every page and contains the social media links. It's important these links are easily accessed because the site states that the user should check the dive shops social media pages for more news and updates about changes in schedules. 
+- User stories covered: 1, 7, 11, 15
+
+&nbsp;
+
 ### **404 - PAGE NOT FOUND ERROR MESSAGE**
 
 A custom-made 404 error page was made since it is a simple yet effective way to improve the user experience on your website and keep users happy even if an error page occurs. It has the header, footer and colors from the original design. A dive mask image with a little fun text underneath helps the user back to the "Home" page. 
+- User stories covered: 17
 
 ![](/docs/screenshots/screenshot_404error.png)
 
