@@ -279,6 +279,10 @@ By organizing the content into distinct pages, the website makes it easy for use
 
 &nbsp;
 
+## **Testing**
+
+
+
 ## **Deployment**
 
 **To deploy the website, the following steps were taken using GitHub Pages:**
@@ -304,7 +308,5 @@ After the webpage refreshes, a ribbon will appear at the top saying that "Your s
 7. Press Enter to create your local clone.
 
 &nbsp;
-
-## **Testing**
 
 ## **Credits**
