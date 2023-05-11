@@ -277,7 +277,33 @@ By organizing the content into distinct pages, the website makes it easy for use
 - Jigsaw CSS validator
 - WAVE Web Accessibility Evaluation Tool
 
+&nbsp;
+
 ## **Deployment**
+
+**To deploy the website, the following steps were taken using GitHub Pages:**
+
+1. Navigate to the Settings tab in the GitHub repository.
+2. Select Pages from the left-hand menu.
+3. Choose the branch Main as the source.
+After the webpage refreshes, a ribbon will appear at the top saying that "Your site is published at https://debbiebergstrom.github.io/CI_PP1_DS/".
+
+**To fork the repository, follow these steps:**
+
+1. Go to the GitHub repository.
+2. Click on the Fork button located in the upper right-hand corner.
+
+**To clone the repository, follow these steps:**
+
+1. Go to the GitHub repository.
+2. Click on the Code button located above the list of files.
+3. Select your preferred method of cloning using HTTPS, SSH, or Github CLI, and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory to be.
+6. Type "git clone" and paste the URL from the clipboard (e.g., "$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY").
+7. Press Enter to create your local clone.
+
+&nbsp;
 
 ## **Testing**
 
