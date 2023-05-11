@@ -218,10 +218,29 @@ The website is composed of four distinct pages:
 
 - The homepage, which features sections information about the shop, contact form, opening hours, contact information and a map of location.
 - An Courses page, which provides information about the courses the dive shop teaches. 
-- The Dive Sites page, which showcases the different dive sites and boat departures.
+- The Dive Sites page, which showcases the different dive sites, what it costs and boat departures.
 - A Gallery page, which features images that provide a glimpse of the experience of diving there.
 
-By organizing the content into distinct pages, the Diveshop website makes it easy for users to navigate and find the information they are looking for. Additionally, the use of a consistent navigation bar and footer throughout the website ensures that users can always find their way back to the main sections of the website and find the social media links.
+By organizing the content into distinct pages, the website makes it easy for users to navigate and find the information they are looking for. Additionally, the use of a consistent navigation bar and footer throughout the website ensures that users can always find their way back to the main sections of the website and find the social media links.
+
+### **Wireframes**
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/wi">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/>
+</details>
+<details><summary>Menu</summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/">
+</details>
+
 
 
 ## **Technologies Used**
