@@ -184,13 +184,26 @@ The banner contains:
 ![](/docs/screenshots/screenshot_gallery.png)
 ![](/docs/screenshots/screenshot_gallery_428px.png) <sub>(Responsive design for mobile devices)</sub>
 
-## **Design**
+&nbsp;
 
+**404 - PAGE NOT FOUND ERROR MESSAGE**
+
+A custom-made 404 error page was made since it is a simple yet effective way to improve the user experience on your website and keep users happy even if an error page occurs. It has the header, footer and colors from the original design. A dive mask image with a little fun text underneath helps the user back to the "Home" page. 
+
+![](/docs/screenshots/screenshot_404error.png)
+
+&nbsp;
+
+## **DESIGN**
+
+**Colors**
 - Color scheme inspiration was taken from the various shades of green and blue found in the ocean. These colors are not only the developer's favorites but also have a calming effect that was desired to convey to the visitors. 
 - A complementary color was added for sharp contrast. Color was taken from the pink corals featured in the background image of the "Home" page. This color is used throughout the page to create a sense of continuity, but with varying opacity depending on where it is used. White was chosen for all text to create a clear contrast against the darker turquoise background as it's the main color of the site. 
 - These design choices was thought to help create a visually appealing and cohesive website that will leave a positive impression on our visitors.
 
 ![](/docs/screenshots/screenshot_color_scheme.png)
+
+**Fonts**
 
 ## **Technologies Used**
 
