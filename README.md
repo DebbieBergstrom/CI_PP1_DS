@@ -281,7 +281,46 @@ By organizing the content into distinct pages, the website makes it easy for use
 
 ## **Testing**
 
+### **HTML Validation**
 
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors except index-page. It states a contrast error of the Google-map at the bottom of the page.
+
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Findex.html)
+
+courses.html [results](hhttps://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fcourses.html) 
+
+dive_sites.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fdive_sites.html) 
+
+gallery.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2Fgallery.html) 
+
+404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdebbiebergstrom.github.io%2FCI_PP1_DS%2F404.html)
+
+&nbsp;
+
+### **CSS Validation**
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+<details><summary>style.css</summary>
+<img src="docs/validation/w3c_validation_css.png">
+</details>
+
+&nbsp;
+
+### **Accessibility**
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+index.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.github.io/CI_PP1_DS/index.html1) 
+
+courses.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.github.io/CI_PP1_DS/courses.html)
+
+dive_sites.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.github.io/CI_PP1_DS/dive_sites.html)
+
+gallery.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.github.io/CI_PP1_DS/gallery.html)
+
+404.html [results](https://wave.webaim.org/report#/https://debbiebergstrom.github.io/CI_PP1_DS/index.html1)
+
+&nbsp;
 
 ## **Deployment**
 
