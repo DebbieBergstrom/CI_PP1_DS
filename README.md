@@ -78,7 +78,29 @@ The Indo Diving Collective website was designed with the user experience in mind
 
 ## **Features**
 
+The website has four pages, althoug the "Home" page consists of five sections that corresponds to approximatley 3-4 pages. 
 
+**Header & Navigation bar**
+
+![](/docs/screenshots/screenshot_header_nav.png)
+![](/docs/screenshots/screenshot_navbar_428px.png) (Responsive design for mobile devices)
+
+
+- Users can access all pages in the fixed header navigation bar to the right. In that way the user never needs to scroll up to find the links the need or the page to have a "go back up" button. 
+- It also contains a fith link - "Contact Us" - that takes the user to the contact form that's further down on the "Home"-page.
+- Navigation links have a hover effect with a border underline in a sharp contract color for the users to see ut's clickable. The same border underline is there static on the page the user is actively on, so it's easy to see exactly what page is visited. 
+- In the left corner we have the dive shop logo which is also made a link to the "Home" page as most users would expect that from standards. 
+- It's fully responsive from wide desktop screens down to small sized mobile screens to meet all users expectations. The navigation links is therefore presented centered under the logo on mobile devices to fit nicely.
+
+
+**Landing page / Hero Image section**
+
+![](/docs/screenshots/screenshot_index_1.png)
+
+- The user is introduced to this vivid and dynamic hero image, taking up much of the screen, which is made with a few seconds of slow, smooth zoom effect to get the feel that the happy diver is coming a little bit closer. 
+- The image sends a positive vibe and also gives the user an adventurous slogan "Are you ready to explore the underwater world?" in text overlay of coral red/pink contrast color the get them intrigued. 
+
+** 
 
 ## **Design**
 
