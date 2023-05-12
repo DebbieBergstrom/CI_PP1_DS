@@ -92,7 +92,7 @@ The Indo Diving Collective website was designed with the user experience in mind
 1. _As a first-time user, I want to learn more about the dive shop, feel a good first impression and a welcoming attitude._
 2. _As a first-time user, I want to easily find information about the location of the dive shop._
 3. _As a first-time user, I want to easily contact the dive shop if I have any questions or want to make a reservation._
-4. _As a first-time user, I want to know the prices for scuba diving courses and fun diving.
+4. _As a first-time user, I want to know the prices for scuba diving courses and fun diving._
 5. _As a first-time user, I want to know the schedule for boat departures._
 6. _As a first-time user, I want to learn about the different scuba diving courses and dive sites._
 7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff and the beauty of the dive sites.
@@ -101,7 +101,7 @@ The Indo Diving Collective website was designed with the user experience in mind
 9. _As a returning user, I want to find different ways to contact the dive shop depending on my preferences._
 10. _As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff._
 11. _As a returning user, I want to follow the dive shop on social media to stay up-to-date on news, events and changed schedules._
-12. _As a returning user, I want to get directions to the dive shop.
+12. _As a returning user, I want to get directions to the dive shop._
 13. _As a returning user, I want to refresh my memory about the different scuba diving courses and dive sites._
 #### **Site owner**
 14. _As the site owner, I want users to easily contact us in their prefered way to get a fast and helpful respons without waiting too long._
@@ -383,6 +383,53 @@ The website was tested on the following browsers:
 
 ### **Testing User Stories**
 
+1. As a first-time user, I want to learn more about the dive shop, feel a good first impression and a welcoming attitude.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| "Who Are We" section | Navigate to Home and scroll down a little bit, below banner | Locating a section "Who are we & why coose us for diving?" | Works as expected |
+
+&nbsp;
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_who_are_we.jpg">
+</details>
+
+&nbsp;
+
+2. As a first-time user, I want to easily find information about the location of the dive shop.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us" | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
+
+&nbsp;
+
+3. As a first-time user, I want to easily contact the dive shop if I have any questions or want to make a reservation.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form| Works as expected |
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
+| "Contact Us Today" button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form| Works as expected |
+| "Contact Us Today" button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_home.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_courses.jpg">
+</details>
+
+&nbsp;
+
 ## **Bugs**
 
 | **Bug** | **Fix** |
@@ -455,6 +502,7 @@ How to disable re-size handle in a textarea element [W3Docs](https://www.w3docs.
 How to create color scheme [Coolors](https://coolors.co/ffffff-98f2f9-34a7c3-016172-e60058)
 
 Create fictional text content: Worked together with [ChatGPT](https://openai.com/)
+
 &nbsp;
 
 ### **Media**
@@ -475,5 +523,5 @@ I would like to take the opportunity to thank:
 - My mentor Mo Shami for his support, advice and for pushing me in the right way. 
 - My family for being really supportive.
 - To the teachers at Code Institute and Slack for providing help and updates.
-- Friends who shared photos of our dive trips. 
+- Friends who shared amazing photos of our dive trips. 
 - My boss at my job who's been supportive and helpful with working scheduls.
