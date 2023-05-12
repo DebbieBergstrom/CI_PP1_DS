@@ -395,7 +395,7 @@ The website was tested on the following browsers:
 <img src="docs/user_stories/userstories_who_are_we.jpg">
 </details>
 
-&nbsp;
+
 
 2. As a first-time user, I want to easily find information about the location of the dive shop.
 
@@ -429,6 +429,27 @@ The website was tested on the following browsers:
 </details>
 
 &nbsp;
+
+4. As a first-time user, I want to know the prices for scuba diving courses and fun diving.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Banner with link "I want to learn!" | Navigate to the Home page, scroll down to banner, click the link | Find Courses page and see prices under every course | Works as expected |
+Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page, scroll down and see prices after dive sites desciption | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_prices_courses.jpg.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_prices_divesites.jpg.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_banner_courses_divesites.jpg">
+</details>
+
+&nbsp;
+
+
 
 ## **Bugs**
 
