@@ -436,6 +436,8 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Banner with link "I want to learn!" | Navigate to the Home page, scroll down to banner, click the link | Find Courses page and see prices under every course | Works as expected |
 Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page, scroll down and see prices after dive sites desciption | Works as expected |
+| "Courses" nav link | "Click on the "Courses" link in the fixed header for all pages | Find course prices | Works as expected | 
+| "Dive Sites" nav link | "Click on the "Dive Sites" link in the fixed header for all pages | Find fun diving prices at the bottom | Works as expected | 
 
 <details><summary>Screenshots</summary>
 <img src="docs/user_stories/userstories_prices_courses.jpg.jpg">
@@ -446,6 +448,29 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 <details><summary>Screenshots</summary>
 <img src="docs/user_stories/userstories_banner_courses_divesites.jpg">
 </details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_courses_divesites">
+</details>
+
+&nbsp;
+
+5. As a first-time user, I want to know the schedule for boat departures.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page, scroll down and see boat departures after dive sites desciption | Works as expected |
+| "Dive Sites" nav link | "Click on the "Dive Sites" link in the fixed header for all pages | Find boat departure schedule at the bottom | Works as expected | 
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_boat_departures.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_boat_departures.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_courses_divesitess.jpg">
+</details>
+
 
 &nbsp;
 
