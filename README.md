@@ -413,10 +413,10 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form| Works as expected |
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
 | "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
-| "Contact Us Today" button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form| Works as expected |
-| "Contact Us Today" button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form| Works as expected |
+| Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user_stories/userstories_contact_us_home.jpg">
@@ -505,12 +505,80 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 <img src="docs/user_stories/userstories_banner_gallery.jpg">
 </details>
 
+&nbsp;
+
+8. As a returning user, I want to quickly access the dive shop's boat departure schedule.
+
+Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page, scroll down and see boat departures after dive sites desciption | Works as expected |
+| "Dive Sites" nav link | "Click on the "Dive Sites" link in the fixed header for all pages | Find boat departure schedule at the bottom | Works as expected | 
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_boat_departures.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_boat_departures.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_courses_divesitess.jpg">
+</details>
+
+&nbsp;
+
+9. As a returning user, I want to find different ways to contact the dive shop depending on my preferences.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us", it contains also a phone number | Works as expected |
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form, fill it, submit | Works as expected | 
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_home.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_courses.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
+
+&nbsp;
+
+10. As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff.
+
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us", it contains also a phone number | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_home.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_courses.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
 
 
 
 
 
 &nbsp;
+
 ## **Bugs**
 
 | **Bug** | **Fix** |
