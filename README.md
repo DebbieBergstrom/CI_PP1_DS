@@ -385,6 +385,19 @@ The website was tested on the following browsers:
 
 ## **Bugs**
 
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Got a double border bottom underline when link in nav bar was active.| Changed the targeted #id from "#menu" to "#menu li" |
+| The hero image wouldn't get fixed in right size for the screen | Added the element style of "display: cover" for the image |
+| Had much problems with aligning all the "divs" in the banner section properly | Learned about "flex"-boxes. Used "display:flex" and tested in Chrome Dev Tools to get it right. |
+|The "Contact Us" link in nav bar would't link to contact form| Added href="index.html#contact" to link and an id="contact" to the form element.|
+|Got an unwanted re-size-handle in the bottom corner of the textarea-container that messed up its fit for screen.| Added property "resize:none" in css to the textarea |
+|The textarea-container would still be a bit misplaced after re-size handle issue got solved. | Enclosed textarea in a div id="textarea-wrapper" and set "text-align:center". |
+| Tested and sent in a filled contact form with success, but saw that the text was hugging the textarea border. | Added 10px padding inside the textarea. |
+| Couldn't get a hoover effect over the "Contact Us Today" buttons in "Dive Sites" + "Courses" because of the styled gradient color that made them look more "3D" | **No fix!** Chose to keep the better visually looking styling in this case. Only found solutions including other languages used to solve problem.
+
+&nbsp;
+
 ## **Deployment**
 
 **To deploy the website, the following steps were taken using GitHub Pages:**
@@ -413,43 +426,36 @@ After the webpage refreshes, a ribbon will appear at the top saying that "Your s
 
 ## **Credits**
 
+### Here's a collection of sites that were helpful in creating this website:
+&nbsp;
+
 How to create zoom effect on hero image:
-Inspired from the CI Love running project.
+Inspired from the CI [Love running project](https://github.com/DebbieBergstrom/love-running)
 
-How to create box-shadow
-https://www.w3schools.com/css/css3_shadows_box.asp
+How to create box-shadow [W3C Schools](https://www.w3schools.com/css/css3_shadows_box.asp)
 
-Box-shadow generator:
-https://html-css-js.com/css/generator/box-shadow/
+How to create box-shadow [generator here](https://html-css-js.com/css/generator/box-shadow/)
 
-How to implement google map iframe:
-https://blog.duda.co/responsive-google-maps-for-your-website
+How to implement [google map iframe](https://blog.duda.co/responsive-google-maps-for-your-website)
 
-How to work with flex-boxes:
-https://www.youtube.com/watch?v=Y_2PFtCj2Nw
+How to work with [flex-boxes](https://www.youtube.com/watch?v=Y_2PFtCj2Nw)
 
-How to get fixed backgrounds:
-https://stackoverflow.com/questions/2662039/keep-background-image-fixed-during-scroll-using-css
+How to get fixed backgrounds [Stack Overflow](https://stackoverflow.com/questions/2662039/keep-background-image-fixed-during-scroll-using-css)
 
-How to get fixed header and footer:
-https://www.w3schools.com/howto/howto_js_sticky_header.asp
+How to get fixed header and footer [W3C Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 
-How to style buttons:
-https://www.w3schools.com/css/css3_buttons.asp
+How to style buttons [W3C Schools](https://www.w3schools.com/css/css3_buttons.asp)
 
-How to make grid in css:
-https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+How to make grid in css [Freecodecamp](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 
-How to focus on a textarea:
-https://css-tricks.com/almanac/selectors/f/focus/
+How to :focus on a textarea [CSS-tricks](https://css-tricks.com/almanac/selectors/f/focus/)
 
-How to disable re-size handle in a textarea element:
-https://www.w3docs.com/snippets/css/how-to-disable-the-resizing-of-the-textarea-element.html#:~:text=To%20prevent%20a%20text%20field,with%20its%20%22none%22%20value.&text=After%20it%20you%20can%20use,for%20your%20element.
+How to disable re-size handle in a textarea element [W3Docs](https://www.w3docs.com/snippets/css/how-to-disable-the-resizing-of-the-textarea-element.html#:~:text=To%20prevent%20a%20text%20field,with%20its%20%22none%22%20value.&text=After%20it%20you%20can%20use,for%20your%20element.)
 
-How to create color scheme: https://coolors.co/ffffff-98f2f9-34a7c3-016172-e60058
+How to create color scheme [Coolors](https://coolors.co/ffffff-98f2f9-34a7c3-016172-e60058)
 
-Create text content to fictional dive site:
-Together with ChatGPT.
+Create fictional text content: Worked together with [ChatGPT](https://openai.com/)
+&nbsp;
 
 ### **Media**
 Background pictures taken from Pexels.
@@ -461,6 +467,7 @@ Jasper [JaspersBlueWorld](https://www.instagram.com/jaspersblueworld/)
 
 Erin [GraspingAtStraws](https://www.instagram.com/graspingatstraws/)
 
+&nbsp;
 
 ## **Acknowledgements**
 
