@@ -95,7 +95,7 @@ The Indo Diving Collective website was designed with the user experience in mind
 4. _As a first-time user, I want to know the prices for scuba diving courses and fun diving._
 5. _As a first-time user, I want to know the schedule for boat departures._
 6. _As a first-time user, I want to learn about the different scuba diving courses and dive sites._
-7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff and the beauty of the dive sites.
+7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff and the beauty of the dive sites._
 #### **Returning users**
 8. _As a returning user, I want to quickly access the dive shop's boat departure schedule._
 9. _As a returning user, I want to find different ways to contact the dive shop depending on my preferences._

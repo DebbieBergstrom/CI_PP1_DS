@@ -16,9 +16,11 @@
 <body>
     <main class="page-max-width">
         <header class="head-container page-max-width">
+            <!-- Logo to the left -->
             <a href="index.html" aria-label="Go to Home page">
                 <h1 id="logo">Indo Diving Collective</h1>
             </a>
+            <!-- Navigation bar to the right -->
             <nav class="container-nav">
                 <ul id="menu">
                     <li>
@@ -38,21 +40,25 @@
                     </li>
                     <li>|</li>
                     <li>
+                        <!-- Link active on this site -->
                         <a href="index.html" class="active" aria-label="Go to Home page">Home</a>
                     </li>
                 </ul>
             </nav>
         </header>
-
+        <!-- HERO IMAGE -->
         <section id="hero-out">
             <div id="hero-image"></div>
+            <!-- Slogan  -->
             <div id="slogan">
                 <h2>Are You Ready to Explore the Underwater World?</h2>
             </div>
         </section>
 
+        <!-- BANNER SECTION -->
         <section id="banner">
             <div id="banner-left">
+                <!-- Left ring -->
                 <div id="left-ring" class="banner-ring">
                     <a href="courses.html" aria-label="Go to Courses page">
                         <h3 class="banner-h3"> I want to learn! </h3>
@@ -62,8 +68,8 @@
                     <p>Which course is gonna take YOU to the next level?</p>
                 </div>
             </div>
-
             <div id="banner-center">
+                <!-- Center ring -->
                 <div id="center-ring" class="banner-ring">
                     <a href="dive_sites.html" aria-label="Go to Dive Sites page">
                         <h3 class="banner-h3"> Take me Fun Diving! </h3>
@@ -73,8 +79,8 @@
                     <p>Learn about our magical dive sites & boat departures.</p>
                 </div>
             </div>
-
             <div id="banner-right">
+                <!-- Rigt ring -->
                 <div id="right-ring" class="banner-ring">
                     <a href="gallery.html" aria-label="Go to Gallery page">
                         <h3 class="banner-h3"> Show me Pictures! </h3>
@@ -86,9 +92,9 @@
             </div>
         </section>
 
-        <!-- Section under banner with three containers and a map -->
+        <!-- SECTION BELOW BANNER w/ three containers + google map -->
         <section class="about-contact-background">
-            <!-- First div About us -->
+            <!-- First div Who are we -->
             <div class="flex-boxes top-box-margin">
                 <div class="box-content">
                     <h2>Who are we & why coose us for diving?</h2>
@@ -131,6 +137,7 @@
                         <br>
                         <p>Fill in the form below and we'll get back to you shortly!</p>
                         <br>
+                        <!-- Inputs textfields  -->
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required="">
                         <label for="email">Email</label>
@@ -139,6 +146,7 @@
                         <input type="tel" id="phone" name="phone" required="">
                         <label for="certified">Certified diver?</label>
                         <br>
+                        <!-- Inputs datalists for certified diver + number of dives  -->
                         <input type="text" id="certified" list="yesno" name="certified" class="datalist">
                         <datalist id="yesno">
                             <option value="Yes"></option>
@@ -161,6 +169,7 @@
                         <br>
                         <br>
                         <br>
+                        <!-- Radio buttons -->
                         <fieldset>
                             <legend>
                                 <h3>Do you wish to book a course, fun dive or simply just send us a message?</h3>
@@ -178,22 +187,25 @@
                         </fieldset>
                         <br>
                         <br>
+                        <!-- Textarea -->
                         <div id="textarea-wrapper">
                             <label for="addmessage">Leave your message here:</label>
                             <textarea name="addmessage" id="addmessage" cols="50" rows="10"
                                 placeholder="Please drop us a message with your questions or requests. Have a nice day!"></textarea>
                             <br>
+                            <!-- Submit button -->
                             <input type="submit" value="Send Message" class="submit-button">
                         </div>
                     </form>
                 </div>
             </div>
 
-            <!-- Third div Find Us -->
+            <!-- Third div How to Find Us -->
             <div class="flex-boxes">
                 <div class="box-content find-us-style bottom-box-margin">
                     <h2 class="table-h2">Opening Hours</h2>
                     <br>
+                    <!-- Opening hours -->
                     <table>
                         <tbody>
                             <tr>
@@ -220,6 +232,7 @@
                         Or just give us a call or fill out the contact form above to
                         get more information.</p>
                     <br>
+                    <!-- Contact information  -->
                     <table>
                         <tbody>
                             <tr>
@@ -236,13 +249,14 @@
                             </tr>
                         </tbody>
                     </table>
-
+                    <!-- Google Map -->
                     <div id="map-wrapper">
                         <iframe id="map"
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3947.538048196603!2d116.03803007673606!3d-8.348610970256145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjAnNTUuMCJTIDExNsKwMDInMzQuNCJF!5e0!3m2!1sen!2snl!4v1682941353028!5m2!1sen!2snl"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" title="Google maps showing where you can find the dive shop.">
-    
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Google maps showing where you can find the dive shop.">
+
                         </iframe>
                     </div>
                 </div>

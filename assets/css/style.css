@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+/* Overriding default settings */
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +14,10 @@ body {
     background-color: #016172;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    color:white;
+    color: white;
 }
 
+/* Max width set to keep content within 1500px on bigger desktop screens */
 .page-max-width {
     max-width: 1500px;
     margin: 0 auto;
@@ -27,7 +29,7 @@ h3 {
     color: white;
 }
 
-/* Header logo and nav menu */
+/* HEADER LOGO & NAVIGATION MENU - fixed on all pages */
 header {
     position: fixed;
     top: 0;
@@ -95,7 +97,7 @@ nav a {
 }
 
 
-/* Hero image and slogan text */
+/* HERO IMAGE & SLOGAN TEXT - Home Page */
 
 #hero-out {
     height: 680px;
@@ -123,6 +125,7 @@ nav a {
     line-height: 1.5;
 }
 
+/* Hero image w/ zoom effect inspired of CI Love running project. */
 #hero-image {
     margin-top: 100px;
     height: 580px;
@@ -140,13 +143,14 @@ nav a {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
 
 
-/* Banner Home Page */
+/* BANNER SECTION - Home Page */
 
 #banner {
     background-color: #98f2f9;
@@ -199,16 +203,6 @@ nav a {
     background-size: cover;
 }
 
-.banner-p {
-    width: 260px;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 15px;
-    font-size: 14px;
-    color: #2a2a2a;
-    font-family: 'Bruno Ace';
-}
-
 #banner-left {
     padding-top: 20px;
     width: 33%;
@@ -233,8 +227,18 @@ nav a {
     justify-content: center;
 }
 
+.banner-p {
+    width: 260px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #2a2a2a;
+    font-family: 'Bruno Ace';
+}
 
-/* Below banner section */
+
+/* BELOW banner section - Home Page */
 
 .about-contact-background {
 
@@ -245,13 +249,12 @@ nav a {
     margin-bottom: 3rem;
 }
 
-/* boxes for home page flex containers */
 .flex-boxes {
     display: flex;
     justify-content: space-around;
 }
 
-/* FORM HOMEPAGE */
+/* CONTACT FORM - Home Page */
 .box-content {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -289,7 +292,7 @@ input:focus {
 }
 
 table {
-    border-collapse:separate;
+    border-collapse: separate;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -318,6 +321,7 @@ input {
     height: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 10px;
 }
 
 #textarea-wrapper {
@@ -365,13 +369,12 @@ textarea:focus {
     cursor: pointer;
 }
 
-
 .submit-button:active {
     box-shadow: none;
     transform: translateY(2px);
 }
 
-/* GOOGLE MAP */
+/* GOOGLE MAP - Home Page */
 #map-wrapper {
     padding: 10px 0px 10px 0px;
 }
@@ -389,7 +392,7 @@ textarea:focus {
     margin-bottom: 50px;
 }
 
-/* footer */
+/* FOOTER - fixed on all pages */
 
 footer {
     position: fixed;
@@ -419,7 +422,7 @@ footer li {
     height: 100%;
 }
 
-/* ALL PAGES LINKS */
+/* ALL PAGES HEADINGS & LINKS */
 
 #all-pages-heading {
     margin-top: 125px;
@@ -438,6 +441,7 @@ footer li {
     padding-top: 20px;
 }
 
+/* Contact link - directs back to contact form on home page */
 #all-pages-contact-link {
     margin-top: 10px;
     margin-bottom: 25px;
@@ -452,12 +456,6 @@ footer li {
     border: none;
     transition: all 0.3s ease;
 }
-
-/* #all-pages-contact-link:hover { doesnt work with the gradient background- image
-    background-color: #450124;
-    color:  #ccf2f5; 
-    cursor: pointer;  */
-
 
 #all-pages-contact-link:active {
     box-shadow: none;
@@ -495,7 +493,6 @@ footer li {
     align-items: center;
 }
 
-
 .boat-prices-p {
     margin-bottom: 20px;
 }
@@ -527,7 +524,7 @@ footer li {
     padding-top: 20px;
 }
 
-
+/* 404 error message page */
 
 #error-message {
     display: flex;
@@ -537,19 +534,19 @@ footer li {
     margin-top: 200px;
 }
 
-#error-message > h2 {
+#error-message>h2 {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#error-message > p {
+#error-message>p {
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-#error-message > img {
+#error-message>img {
     width: 461px;
     height: 334px;
     margin-bottom: 20px;
@@ -557,8 +554,8 @@ footer li {
 
 #error-message a {
     color: white;
-    font-size: 110%; 
-    border-bottom: 2px solid  rgb(230, 0, 88, .7);   
+    font-size: 110%;
+    border-bottom: 2px solid rgb(230, 0, 88, .7);
 }
 
 
@@ -600,8 +597,8 @@ footer li {
         width: 80%;
     }
 
-    textarea { 
-    width: 70vw;
+    textarea {
+        width: 70vw;
     }
 
     #map {
