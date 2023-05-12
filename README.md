@@ -553,11 +553,14 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 
 10. As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff.
 
- "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
+ | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form, fill it, submit| Works as expected | 
 | Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
 | Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
 | Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
 | How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us", it contains also a phone number | Works as expected |
+
 
 
 <details><summary>Screenshots</summary>
@@ -597,6 +600,111 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 <img src="docs/user_stories/userstories_opening_find_us.jpg">
 </details>
 
+&nbsp;
+
+13. As a returning user, I want to refresh my memory about the different scuba diving courses and dive sites.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page| Works as expected |
+| "Dive Sites" nav link | "Click on the "Dive Sites" link in the fixed header for all pages | Find dive sites description | Works as expected | 
+| "Courses" nav link | "Click on the "Courses" link in the fixed header for all pages | Find course selection | Works as expected | 
+| Banner with link "I want to learn!" | Navigate to the Home page, scroll down to banner, click the link | Find Courses page and the selection | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_courses_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_banner_courses_divesites.jpg">
+</details>
+
+&nbsp;
+
+14. As the site owner, I want users to easily contact us in their prefered way to get a fast and helpful respons without waiting too long. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us", it contains also a phone number | Works as expected |
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form, fill it, submit| Works as expected | 
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_home.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_courses.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
+
+&nbsp;
+
+15. As the site owner, I want users to get a great impression of the dive shop's services and the beauty of the surrounding area.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| "Who Are We" section | Navigate to Home and scroll down a little bit, below banner | Locating a section "Who are we & why coose us for diving?" | Works as expected |
+| "Gallery" nav link | "Click on the "Gallery" link in the fixed header for all pages | Find Gallery | Works as expected |
+| Banner with link "Show Me Pictures!" | Navigate to the Home page, scroll down to banner, click the link | Find Gallery | Works as expected | 
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_gallery.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_banner_gallery.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_who_are_we.jpg">
+</details>
+
+
+&nbsp;
+
+16. As the site owner, I want users to easily be able to book scuba diving trips and courses through the website.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form, fill it, submit| Works as expected | 
+| Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
+| How to Find Us | Navigate to the Home page, scroll down past contact form | See section "How to find us", it contains also a phone number | Works as expected |
+
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_home.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_contact_us_courses.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
+
+&nbsp;
+
+17. As the site owner, I want users to have a custom made 404 error message with the websites familiar design to direct them back to the website when needed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+404 error page | On 404 error page click on link "Take a deep breath & navigate back to Home for Indo Diving Collective" (link starts at Home) or any link up in the navigation bar| Find back to home page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_404.jpg">
+</details>
 
 &nbsp;
 
