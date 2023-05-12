@@ -553,7 +553,7 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 
 10. As a returning user, I want to easily make contact to book a course or fun diving trip with fast and helpful staff.
 
-| "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
+ "Contact Us" nav link | "Click on the Contact Us" link in the fixed header for all pages | Find contact form | Works as expected | 
 | Contact form | Navigate to the Home page, scroll down past "Who are we" section | Find contact form, fill it, submit| Works as expected |
 | Contact Us Today button in Courses page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
 | Contact Us Today button in Dive Sites page | Navigate to the Courses page, scroll down to bottom, click the button | Find contact form, fill it, submit| Works as expected |
@@ -573,8 +573,29 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 <img src="docs/user_stories/userstories_opening_find_us.jpg">
 </details>
 
+&nbsp;
 
+11. As a returning user, I want to follow the dive shop on social media to stay up-to-date on news, events and changed schedules.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | The footer is always fixed at the bottom of every page. Click desired link | Find chosen page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_footer_social_media.jpg">
+</details>
+
+&nbsp;
+
+12. As a returning user, I want to get directions to the dive shop.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Home page, scroll down past contact form to "How to find us section" | See Google Map just underneath | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_opening_find_us.jpg">
+</details>
 
 
 &nbsp;
