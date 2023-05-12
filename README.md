@@ -700,7 +700,8 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 17. As the site owner, I want users to have a custom made 404 error message with the websites familiar design to direct them back to the website when needed.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
-404 error page | On 404 error page click on link "Take a deep breath & navigate back to Home for Indo Diving Collective" (link starts at Home) or any link up in the navigation bar| Find back to home page | Works as expected |
+|-------------|------------|---------------------|-------------------|
+| 404 error page | On 404 error page click on link "Take a deep breath & navigate back to Home for Indo Diving Collective" (link starts at Home) or any link up in the navigation bar | Find back to home page | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user_stories/userstories_404.jpg">
