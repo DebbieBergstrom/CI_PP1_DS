@@ -467,15 +467,50 @@ Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down 
 <details><summary>Screenshots</summary>
 <img src="docs/user_stories/userstories_nav_boat_departures.jpg">
 </details>
-<details><summary>Screenshots</summary>
-<img src="docs/user_stories/userstories_nav_courses_divesitess.jpg">
-</details>
-
 
 &nbsp;
 
 
+6. As a first-time user, I want to learn about the different scuba diving courses and dive sites.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+Banner with link "Take me fun diving!" | Navigate to the Home page, scroll down to banner, click the link | Find Dive Sites page| Works as expected |
+| "Dive Sites" nav link | "Click on the "Dive Sites" link in the fixed header for all pages | Find dive sites description | Works as expected | 
+| "Courses" nav link | "Click on the "Courses" link in the fixed header for all pages | Find course selection | Works as expected | 
+| Banner with link "I want to learn!" | Navigate to the Home page, scroll down to banner, click the link | Find Courses page and the selection | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_courses_divesites.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_banner_courses_divesites.jpg">
+</details>
+
+&nbsp;
+
+7. _As a first-time user, I want to see dynamic photos that showcase the dive shop's staff and the beauty of the dive sites.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| "Gallery" nav link | "Click on the "Gallery" link in the fixed header for all pages | Find Gallery | Works as expected |
+| Banner with link "Show Me Pictures!" | Navigate to the Home page, scroll down to banner, click the link | Find Gallery | Works as expected | 
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_nav_gallery.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user_stories/userstories_banner_gallery.jpg">
+</details>
+
+
+
+
+
+
+&nbsp;
 ## **Bugs**
 
 | **Bug** | **Fix** |
